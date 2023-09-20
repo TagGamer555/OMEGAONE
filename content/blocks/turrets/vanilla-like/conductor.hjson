@@ -1,0 +1,114 @@
+{
+	name: Conductor
+	description: "Alternate Arc, shoots homing bolt of pure energy.\n[stat]Tag: [white]ArmoryExtended[][]"
+	
+	health: 260
+	reload: 90
+	recoil: 1
+	rotateSpeed: 6
+	shootSound: missile
+	
+	requirements: [
+		silicon/40
+		lead/30
+	]
+	//shootY: 0
+	shoot: {
+		firstShotDelay: 20
+	}
+	//liquidCapacity: 16
+	size: 1
+	range: 120
+	shake: 3
+	unitSort: strongest
+	moveWhileCharging: false
+	accurateDelay: false
+	consumes: {
+		power: 7.5
+	}
+	shootType: {
+		chargeEffect: [
+			{
+				type: WaveEffect
+				sides: 0
+				sizeFrom: 6
+				sizeTo: 0
+				strokeTo: 0
+				lifetime: 20
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
+				lightScl: 3
+				lightColor: A8D8FF
+			}
+			{
+				particles: 1
+				sizeFrom: 0
+				sizeTo: 2
+				length: 0
+				lifetime: 20
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
+				lightScl: 3
+				lightColor: A8D8FF
+			}
+		]
+		pierceArmor: false
+		hitEffect: {
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 8
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: FFFFFF
+			colorTo: A8D8FF
+			lightScl: 3
+			lightColor: A8D8FF
+		}
+		despawnEffect: none
+		smokeEffect: none
+		homingRange: 50
+		homingPower: 0.02
+		width: 8
+		height: 10
+		shrinkY: 0
+		damage: 60
+		colorFront: FFFFFF
+		colorBack: A8D8FF
+		lifetime: 20
+		speed: 6
+		status: shocked
+		statusDuration: 120
+		ammoMultiplier: 1
+		shootEffect: {
+			type: MultiEffect
+			effects: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 8
+					sizeTo: 0
+					strokeTo: 0
+					lifetime: 25
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
+					lightScl: 3
+					lightColor: A8D8FF
+				}
+				{
+					particles: 4
+					sizeFrom: 2
+					sizeTo: 0
+					lifetime: 60
+					length: 20
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
+					lightScl: 3
+					lightColor: A8D8FF
+				}
+			]
+		}
+	}
+	category: turret
+	research: arc
+}

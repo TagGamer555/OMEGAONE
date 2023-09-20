@@ -1,6 +1,6 @@
 {
 	name: Beam Tesla
-	description: Slow-firing weapon which shoots beams of lightning.
+	description: "Alternate Lancer, this weapons shoots longer ray of pure electricity, which may hit an air unit, if catches one. The power consumption and cost of this turret, however, is still unmatched.\n[stat]Tag: [white]ArmoryExtended[][]"
 	
 	health: 320
 	reload: 240
@@ -27,7 +27,7 @@
 	moveWhileCharging: false
 	accurateDelay: false
 	consumes: {
-		power: 5
+		power: 7.5
 	}
 	shootType: {
 		chargeEffect: [
