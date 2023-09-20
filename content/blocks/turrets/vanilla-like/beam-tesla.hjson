@@ -15,7 +15,7 @@
 		silicon/80
 		titanium/60
 	]
-	shootY: 0
+	//shootY: 0
 	shoot: {
 		firstShotDelay: 40
 	}
@@ -66,6 +66,17 @@
 					sizeTo: 0
 					strokeTo: 0
 					lifetime: 25
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
+					lightScl: 3
+					lightColor: A8D8FF
+				}
+				{
+					particles: 5
+					sizeFrom: 4
+					sizeTo: 0
+					lifetime: 240
+					length: 20
 					colorFrom: FFFFFF
 					colorTo: A8D8FF
 					lightScl: 3
