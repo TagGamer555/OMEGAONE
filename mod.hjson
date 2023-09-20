@@ -1,0 +1,11 @@
+name: "Ω1"
+subtitle: "Great news!"
+displayName: "Ω1"
+description: "DISCORD: https://discord.gg/sGn9hvPgEE (join!)\n\nState: INDEV\nContent: NONE\nPlayable: TRUE"
+author: "[lime]KillerIKY - lead dev"
+minGameVersion: "136"
+version: "000"
+main: "Ω1.Ω1Mod"
+java: false
+
+//Hello! If you want to copy some scripts, don't forget to mention me in your credits zone! THX.
