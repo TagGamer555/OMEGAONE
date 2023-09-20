@@ -30,15 +30,15 @@
 		power: 5
 	}
 	shootType: {
-		type: RailBulletType
+		shootY: 0
+		type: LaserBulletType
 		pierceArmor: true
-		shootEffect: none
 		hitEffect: none
 		despawnEffect: none
 		smokeEffect: none
+		width: 10
 		length: 200
-		damage: 100
-		collidesAir: false
+		damage: 120
 		status: shocked
 		statusDuration: 300
 		speed: 240
@@ -60,11 +60,7 @@
 				}
 			]
 		}
-		lineEffect: {
-			type: ParticleEffect
-			stroke: 3
-			color: A8D8FF
-		}
+		colors: [A8D8FF, A8D8FF, FFFFFF] //first - mid; second - dark; third - light;
 	}
 	category: turret
 	research: lancer
