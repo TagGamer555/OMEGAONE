@@ -15,6 +15,7 @@
 		silicon/80
 		titanium/60
 	]
+	shootY: 0
 	shoot: {
 		firstShotDelay: 60
 	}
@@ -44,22 +45,21 @@
 				lightColor: A8D8FF
 			}
 			{
-				particles: 3
-				sizeFrom: 4
+				particles: 5
+				sizeFrom: 3
 				sizeTo: 0
-				length: 30
+				length: 10
 				lifetime: 60
 				colorFrom: FFFFFF
 				colorTo: A8D8FF
 			}
 		]
-		shootY: 0
 		type: LaserBulletType
 		pierceArmor: true
 		hitEffect: none
 		despawnEffect: none
 		smokeEffect: none
-		width: 2
+		width: 10
 		length: 200
 		damage: 360
 		status: shocked
