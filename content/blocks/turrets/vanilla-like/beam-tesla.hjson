@@ -9,6 +9,7 @@
 	rotateSpeed: 6
 	shootCone: 1
 	shootSound: railgun
+	chargeSound: lasercharge2
 	
 	requirements: [
 		copper/120
