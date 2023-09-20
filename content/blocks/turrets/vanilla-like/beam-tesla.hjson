@@ -1,5 +1,4 @@
 {
-	type: PowerTurret
 	name: Beam Tesla
 	description: Slow-firing weapon which shoots beams of lightning.
 	
