@@ -25,7 +25,7 @@
 	//unitSort: strongest
 	accurateDelay: false
 	silicon: {
-		sprite: nail
+		sprite: omegaone-nail
 		pierceArmor: true
 		smokeEffect: none
 		width: 8
