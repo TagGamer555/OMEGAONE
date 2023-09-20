@@ -1,0 +1,17 @@
+require("blocks/walls");
+require("blocks/power");
+require("blocks/liquid");
+require("blocks/distribution");
+require("blocks/projectors");
+require("blocks/storage");
+require("blocks/environment");
+require("blocks/production");
+require("blocks/drills");
+require("blocks/turrets");
+require("blocks/payload-blocks");
+require("statuses/statuses");
+require("units");
+require("blocks/erekir-content");
+require("liquids");
+require("weathers");
+require("items");
