@@ -62,7 +62,7 @@
 		}
 		pointEffect: {
 			type: ParticleEffect
-			region: Ω1-rail-line
+			region: omegaone-rail-line
 			lightScl: 3
 			lightColor: A8D8FF
 			particles: 1
