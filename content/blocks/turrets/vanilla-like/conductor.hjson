@@ -79,7 +79,7 @@
 		}
 		smokeEffect: none
 		homingRange: 50
-		homingPower: 0.05
+		homingPower: 0.075
 		width: 6
 		height: 8
 		shrinkY: 0
