@@ -72,8 +72,8 @@
 				{
 					type: WaveEffect
 					sides: 0
-					sizeFrom: 10
-					sizeTo: 0
+					sizeFrom: 0
+					sizeTo: 10
 					strokeTo: 0
 					lifetime: 25
 					colorFrom: FFFFFF
