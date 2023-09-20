@@ -1,2 +1,4 @@
-//region - turrets
-const beamTesla = extend(PowerTurret, "beam-tesla", {});
+{
+	//region - turrets
+	const beamTesla = extend(PowerTurret, "beam-tesla", {});
+}
