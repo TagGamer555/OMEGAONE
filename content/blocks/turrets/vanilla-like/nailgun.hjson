@@ -29,8 +29,8 @@
 			sprite: omegaone-nail
 			pierceArmor: true
 			smokeEffect: none
-			width: 8
-			height: 8
+			width: 4
+			height: 4
 			shrinkY: 0
 			damage: 5
 			frontColor: 8E9097
