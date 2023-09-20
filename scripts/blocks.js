@@ -1,2 +1,2 @@
 //region - turrets
-const beamtesla = extend(ItemTurret, "beam-tesla");
+const beamTesla = extend(ItemTurret, "beam-tesla");
