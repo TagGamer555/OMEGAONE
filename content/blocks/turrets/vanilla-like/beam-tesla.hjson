@@ -103,6 +103,15 @@
 				moveRot: 0
 				moveX: 0
 				moveY: -4
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: 0
+						moveX: 0
+						moveY: -4
+					}
+				]
 			}
 			{
 				type: RegionPart
@@ -114,6 +123,15 @@
 				moveRot: -20
 				moveX: 0
 				moveY: -4
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: -20
+						moveX: 0
+						moveY: -4
+					}
+				]
 			}
 		]
 	}
