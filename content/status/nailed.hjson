@@ -1,0 +1,9 @@
+{
+	name: Nailed
+	description: You have been Nailed!
+	damage: 0.2
+	speedMultiplier: 0.9
+	permanent: false
+	alwaysUnlocked: false
+	affinities: ["shocked"]
+}

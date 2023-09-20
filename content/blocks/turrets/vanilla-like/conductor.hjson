@@ -24,7 +24,7 @@
 	moveWhileCharging: false
 	accurateDelay: false
 	consumes: {
-		power: 7.5
+		power: 5
 	}
 	shootType: {
 		chargeEffect: [
