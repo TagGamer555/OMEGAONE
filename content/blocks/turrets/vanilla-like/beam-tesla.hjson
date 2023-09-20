@@ -98,7 +98,6 @@
 				suffix: -extra2
 				mirror: false
 				under: false
-				type: PartMove
 				progress: recoil
 				moveRot: 0
 				moveX: 0
@@ -118,7 +117,6 @@
 				suffix: -extra
 				mirror: true
 				under: true
-				type: PartMove
 				progress: recoil
 				moveRot: -20
 				moveX: 0
