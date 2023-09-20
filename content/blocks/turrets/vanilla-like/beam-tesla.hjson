@@ -95,7 +95,7 @@
 		parts: [
 			{
 				type: RegionPart
-				suffix: -extra-mid
+				suffix: -extra2
 				mirror: false
 				under: false
 				type: PartMove
