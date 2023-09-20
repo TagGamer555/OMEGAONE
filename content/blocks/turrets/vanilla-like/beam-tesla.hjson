@@ -58,33 +58,20 @@
 					lightScl: 3
 					lightColor: A8D8FF
 				}
-				{
-					type: ParticleEffect
-					region: Ω1-rail-line
-					lightScl: 3
-					lightColor: A8D8FF
-					particles: 1
-					length: 0
-					sizeFrom: 10
-					sizeTo: 0
-					lifetime: 25
-					colorFrom: FFFFFF
-					colorTo: A8D8FF
-				}
 			]
-			pointEffect: {
-				type: ParticleEffect
-				region: Ω1-rail-line
-				lightScl: 3
-				lightColor: A8D8FF
-				particles: 1
-				length: 0
-				sizeFrom: 10
-				sizeTo: 0
-				lifetime: 25
-				colorFrom: FFFFFF
-				colorTo: A8D8FF
-			}
+		}
+		pointEffect: {
+			type: ParticleEffect
+			region: Ω1-rail-line
+			lightScl: 3
+			lightColor: A8D8FF
+			particles: 1
+			length: 0
+			sizeFrom: 10
+			sizeTo: 0
+			lifetime: 25
+			colorFrom: FFFFFF
+			colorTo: A8D8FF
 		}
 	}
 	category: turret
