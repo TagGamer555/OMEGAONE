@@ -5,7 +5,7 @@
 	
 	health: 320
 	reload: 240
-	recoil: 3
+	recoil: 1
 	rotateSpeed: 4
 	shootCone: 1
 	shootSound: railgun
@@ -62,16 +62,8 @@
 		}
 		lineEffect: {
 			type: ParticleEffect
-			region: omegaone-rail-line
-			lightScl: 3
-			lightColor: A8D8FF
-			particles: 1
-			length: 0
-			sizeFrom: 10
-			sizeTo: 0
-			lifetime: 25
-			colorFrom: FFFFFF
-			colorTo: A8D8FF
+			stroke: 3
+			color: A8D8FF
 		}
 	}
 	category: turret
