@@ -8,7 +8,8 @@
 	recoil: 3
 	rotateSpeed: 4
 	shootCone: 1
-	shootSound: laser
+	shootSound: railgun
+	
 	requirements: [
 		copper/120
 		silicon/80
@@ -52,14 +53,14 @@
 					sizeTo: 0
 					strokeTo: 0
 					lifetime: 25
-					colorFrom: A8D8FF
-					colorTo: FFFFFF
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
 					lightScl: 3
 					lightColor: A8D8FF
 				}
 				{
 					type: ParticleEffect
-					region: Ω1-rail-line
+					region: rail-line
 					lightScl: 3
 					lightColor: A8D8FF
 					particles: 1
@@ -67,10 +68,23 @@
 					sizeFrom: 10
 					sizeTo: 0
 					lifetime: 25
-					colorFrom: A8D8FF
-					colorTo: FFFFFF
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
 				}
 			]
+			pointEffect: {
+				type: ParticleEffect
+				region: rail-line
+				lightScl: 3
+				lightColor: A8D8FF
+				particles: 1
+				length: 0
+				sizeFrom: 10
+				sizeTo: 0
+				lifetime: 25
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
+			}
 		}
 	}
 	category: turret
@@ -84,30 +98,22 @@
 				suffix: -extra-mid
 				mirror: false
 				under: false
-				moves: [
-					{
-						type: PartMove
-						progress: recoil
-						moveRot: 0
-						moveX: 0
-						moveY: -3
-					}
-				]
+				type: PartMove
+				progress: recoil
+				moveRot: 0
+				moveX: 0
+				moveY: -4
 			}
 			{
 				type: RegionPart
 				suffix: -extra
 				mirror: true
 				under: true
-				moves: [
-					{
-						type: PartMove
-						progress: recoil
-						moveRot: -15
-						moveX: 0
-						moveY: -2
-					}
-				]
+				type: PartMove
+				progress: recoil
+				moveRot: -20
+				moveX: 0
+				moveY: -4
 			}
 		]
 	}
