@@ -19,7 +19,7 @@
 	//	firstShotDelay: 0
 	//}
 	//liquidCapacity: 16
-	size: 1
+	size: 3
 	range: 180
 	shake: 0
 	//unitSort: strongest
