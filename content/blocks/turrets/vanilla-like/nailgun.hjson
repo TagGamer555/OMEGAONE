@@ -52,16 +52,6 @@
 		parts: [
 			{
 				type: RegionPart
-				suffix: -holder
-				mirror: false
-				under: false
-				progress: recoil
-				moveRot: 0
-				moveX: 0
-				moveY: 0
-			}
-			{
-				type: RegionPart
 				suffix: -barrel
 				mirror: true
 				under: false
@@ -69,6 +59,16 @@
 				moveRot: 0
 				moveX: 0
 				moveY: -2
+			}
+			{
+				type: RegionPart
+				suffix: -holder
+				mirror: false
+				under: false
+				progress: recoil
+				moveRot: 0
+				moveX: 0
+				moveY: 0
 			}
 		]
 	}
