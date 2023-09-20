@@ -1,5 +1,5 @@
 {
-	name: Conductor
+	name: Nailgun
 	description: "Alternate Fuse, rapidly fires various nails at close range.\n[stat]Tag: [white]ArmoryExtended[][]"
 	
 	health: 220
@@ -24,23 +24,25 @@
 	shake: 0
 	//unitSort: strongest
 	accurateDelay: false
-	silicon: {
-		sprite: omegaone-nail
-		pierceArmor: true
-		smokeEffect: none
-		width: 8
-		height: 8
-		shrinkY: 0
-		damage: 5
-		frontColor: 8E9097
-		backColor: 767A84
-		lifetime: 30
-		speed: 6
-		//status: nailed
-		//statusDuration: 200
-		ammoMultiplier: 8
-		homingRange: 40
-		homingPower: 0.01
+	ammoTypes: {
+		silicon: {
+			sprite: omegaone-nail
+			pierceArmor: true
+			smokeEffect: none
+			width: 8
+			height: 8
+			shrinkY: 0
+			damage: 5
+			frontColor: 8E9097
+			backColor: 767A84
+			lifetime: 30
+			speed: 6
+			//status: nailed
+			//statusDuration: 200
+			ammoMultiplier: 8
+			homingRange: 40
+			homingPower: 0.01
+		}
 	}
 	category: turret
 	research: fuse
