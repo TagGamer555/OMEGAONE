@@ -6,7 +6,7 @@
 	health: 320
 	reload: 240
 	recoil: 1
-	rotateSpeed: 6
+	rotateSpeed: 4
 	shootCone: 1
 	shootSound: railgun
 	chargeSound: lasercharge2
@@ -25,7 +25,6 @@
 	range: 200
 	shake: 3
 	unitSort: strongest
-	targetAir: false
 	moveWhileCharging: false
 	accurateDelay: false
 	consumes: {
@@ -45,6 +44,17 @@
 				lightScl: 3
 				lightColor: A8D8FF
 			}
+			{
+				particles: 1
+				sizeFrom: 0
+				sizeTo: 4
+				length: 0
+				lifetime: 40
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
+				lightScl: 3
+				lightColor: A8D8FF
+			}
 		]
 		type: LaserBulletType
 		pierceArmor: true
@@ -53,7 +63,7 @@
 		smokeEffect: none
 		width: 10
 		length: 200
-		damage: 500
+		damage: 300
 		status: shocked
 		statusDuration: 300
 		ammoMultiplier: 1
