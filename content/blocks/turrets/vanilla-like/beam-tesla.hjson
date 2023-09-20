@@ -16,7 +16,7 @@
 		titanium/60
 	]
 	shoot: {
-		firstShotDelay: 40
+		firstShotDelay: 60
 	}
 	//liquidCapacity: 16
 	size: 2
@@ -30,18 +30,40 @@
 		power: 5
 	}
 	shootType: {
+		chargeEffect: [
+			{
+				type: WaveEffect
+				sides: 0
+				sizeFrom: 8
+				sizeTo: 0
+				strokeTo: 0
+				lifetime: 60
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
+				lightScl: 3
+				lightColor: A8D8FF
+			}
+			{
+				particles: 3
+				sizeFrom: 4
+				sizeTo: 0
+				length: 30
+				lifetime: 60
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
+			}
+		]
 		shootY: 0
 		type: LaserBulletType
 		pierceArmor: true
 		hitEffect: none
 		despawnEffect: none
 		smokeEffect: none
-		width: 10
+		width: 2
 		length: 200
-		damage: 120
+		damage: 360
 		status: shocked
 		statusDuration: 300
-		speed: 240
 		ammoMultiplier: 1
 		shootEffect: {
 			type: MultiEffect
