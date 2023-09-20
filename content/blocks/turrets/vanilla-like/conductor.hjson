@@ -65,16 +65,30 @@
 			lightScl: 3
 			lightColor: A8D8FF
 		}
-		despawnEffect: none
+		despawnEffect: {
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 8
+			sizeTo: 0
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: FFFFFF
+			colorTo: A8D8FF
+			lightScl: 3
+			lightColor: A8D8FF
+		}
 		smokeEffect: none
 		homingRange: 50
 		homingPower: 0.02
-		width: 8
-		height: 10
+		width: 6
+		height: 8
 		shrinkY: 0
 		damage: 60
-		colorFront: FFFFFF
-		colorBack: A8D8FF
+		frontColor: FFFFFF
+		backColor: A8D8FF
+		trailColor: A8D8FF
+		trailLength: 10
+		trailWidth: 1
 		lifetime: 20
 		speed: 6
 		status: shocked
