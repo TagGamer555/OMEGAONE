@@ -32,8 +32,18 @@
 	}
 	shootType: {
 		chargeEffect: [
-			lancerLaserChangeBegin
-			lancerLaserCharge
+			{
+				type: WaveEffect
+				sides: 0
+				sizeFrom: 12
+				sizeTo: 0
+				strokeTo: 0
+				lifetime: 40
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
+				lightScl: 3
+				lightColor: A8D8FF
+			}
 		]
 		type: LaserBulletType
 		pierceArmor: true
