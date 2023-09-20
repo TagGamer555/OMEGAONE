@@ -98,17 +98,13 @@
 				suffix: -extra2
 				mirror: false
 				under: false
-				progress: recoil
-				moveRot: 0
-				moveX: 0
-				moveY: -4
 				moves: [
 					{
 						type: PartMove
 						progress: recoil
 						moveRot: 0
 						moveX: 0
-						moveY: -4
+						moveY: -2
 					}
 				]
 			}
@@ -117,17 +113,13 @@
 				suffix: -extra
 				mirror: true
 				under: true
-				progress: recoil
-				moveRot: -20
-				moveX: 0
-				moveY: -4
 				moves: [
 					{
 						type: PartMove
 						progress: recoil
 						moveRot: -20
 						moveX: 0
-						moveY: -4
+						moveY: -2
 					}
 				]
 			}
