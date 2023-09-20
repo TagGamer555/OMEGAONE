@@ -6,6 +6,6 @@ author: "[lime]KillerIKY - lead dev"
 minGameVersion: "136"
 version: "000"
 main: "omegaone.omegaoneMod"
-java: false
+java: true
 
 //Hello! If you want to copy some scripts, don't forget to mention me in your credits zone! THX.
