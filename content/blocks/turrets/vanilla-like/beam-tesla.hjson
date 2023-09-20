@@ -72,10 +72,10 @@
 					lightColor: A8D8FF
 				}
 				{
-					particles: 5
-					sizeFrom: 4
+					particles: 7
+					sizeFrom: 3
 					sizeTo: 0
-					lifetime: 240
+					lifetime: 60
 					length: 20
 					colorFrom: FFFFFF
 					colorTo: A8D8FF
