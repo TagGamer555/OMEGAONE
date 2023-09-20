@@ -6,7 +6,7 @@
 	health: 320
 	reload: 240
 	recoil: 1
-	rotateSpeed: 4
+	rotateSpeed: 6
 	shootCone: 1
 	shootSound: railgun
 	
@@ -17,7 +17,7 @@
 	]
 	shootY: 0
 	shoot: {
-		firstShotDelay: 60
+		firstShotDelay: 40
 	}
 	//liquidCapacity: 16
 	size: 2
@@ -32,27 +32,8 @@
 	}
 	shootType: {
 		chargeEffect: [
-			{
-				type: WaveEffect
-				sides: 0
-				sizeFrom: 8
-				sizeTo: 0
-				strokeTo: 0
-				lifetime: 60
-				colorFrom: FFFFFF
-				colorTo: A8D8FF
-				lightScl: 3
-				lightColor: A8D8FF
-			}
-			{
-				particles: 5
-				sizeFrom: 3
-				sizeTo: 0
-				length: 10
-				lifetime: 60
-				colorFrom: FFFFFF
-				colorTo: A8D8FF
-			}
+			lancerLaserChangeBegin
+			lancerLaserCharge
 		]
 		type: LaserBulletType
 		pierceArmor: true
@@ -61,7 +42,7 @@
 		smokeEffect: none
 		width: 10
 		length: 200
-		damage: 360
+		damage: 500
 		status: shocked
 		statusDuration: 300
 		ammoMultiplier: 1
