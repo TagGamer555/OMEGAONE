@@ -13,7 +13,6 @@
 	alwaysUnlocked: true
 	hitSize: 10
 	hidden: true
-	controllable: false
 	logicControllable: false
 	playerControllable: false
 	physics: false
