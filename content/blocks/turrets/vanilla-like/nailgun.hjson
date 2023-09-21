@@ -35,42 +35,44 @@
 			pierceArmor: true
 			//smokeEffect: none
 			despawnEffect: none
-			width: 4
+			width: 3
 			height: 8
 			shrinkY: 0
 			damage: 10
 			frontColor: C8A58F
 			backColor: B18768
-			lifetime: 30
-			speed: 6
+			lifetime: 15
+			speed: 12
 			ammoMultiplier: 2
 			reloadMultiplier: 1
 			fragBullets: 1
 			fragBullet: {
 				shrinkY: 0
 				speed: 10
-				drag: 0.25
-				damage: 20
+				drag: 0.5
+				damage: 30
 				lifetime: 90
 				collidesAir: false
 				status: nailed
 				statusDuration: 120
 				frontColor: C8A58F
 				backColor: B18768
+				width: 4
+				height: 4
 			}
 		}
 		silicon: {
 			//sprite: omegaone-nail
 			pierceArmor: true
 			//smokeEffect: none
-			width: 4
+			width: 3
 			height: 8
 			shrinkY: 0
 			damage: 15
 			frontColor: 8E9097
 			backColor: 767A84
-			lifetime: 30
-			speed: 6
+			lifetime: 15
+			speed: 12
 			//status: nailed
 			//statusDuration: 200
 			ammoMultiplier: 4
