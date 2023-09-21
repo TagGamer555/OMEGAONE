@@ -1,4 +1,4 @@
 {
 	//region - misc
-	const galdiatorUnit = extend(tether, "gladiator-unit", {});
+	const galdiatorUnit = extend(buildingTether, "gladiator-unit", {});
 }

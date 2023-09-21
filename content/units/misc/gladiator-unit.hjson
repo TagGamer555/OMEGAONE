@@ -17,6 +17,7 @@
 	playerControllable: false
 	controller: FlyingAI
 	rotateSpeed: 3
+	useUnitCap: false
 
 	weapons: [
 		{
