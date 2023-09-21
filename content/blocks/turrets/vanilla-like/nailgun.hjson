@@ -35,6 +35,7 @@
 			pierceArmor: true
 			//smokeEffect: none
 			despawnEffect: none
+			hitEffect: none
 			width: 3
 			height: 8
 			shrinkY: 0
