@@ -49,9 +49,9 @@
 			fragBullet: {
 				shrinkY: 0
 				speed: 10
-				drag: 0.025
+				drag: 0.25
 				damage: 20
-				lifetime: 60
+				lifetime: 90
 				collidesAir: false
 				status: nailed
 				statusDuration: 120
