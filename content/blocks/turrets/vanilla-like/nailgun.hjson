@@ -3,7 +3,7 @@
 	description: "Alternate Fuse, rapidly fires various nails at close range.\n[stat]Tag: [white]ArmoryExtended[][]"
 	
 	health: 1980
-	reload: 5
+	reload: 10
 	recoil: 0.2
 	rotateSpeed: 5
 	shootSound: shootSnap
@@ -22,6 +22,15 @@
 	size: 3
 	range: 180
 	shake: 0
+	inaccuracy: 10
+	shoot: {
+		type: ShootBarrel
+		barrels: [
+			0, 1, 0,
+			3, 0, 0,
+			-3, 0, 0
+		]
+	}
 	//unitSort: strongest
 	accurateDelay: false
 	ammoTypes: {
@@ -40,9 +49,9 @@
 			//status: nailed
 			//statusDuration: 200
 			ammoMultiplier: 8
-			homingRange: 40
-			homingPower: 0.02
-			reloadMultiplier: 1.25
+			homingRange: 20
+			homingPower: 0.03
+			reloadMultiplier: 0.9
 		}
 	}
 	category: turret
