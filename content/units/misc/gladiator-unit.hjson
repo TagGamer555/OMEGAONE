@@ -4,27 +4,17 @@
 	name: Gladiator
 	description: Bush hid the facts!
 	lowAltitude: true
-	health: 999999
+	health: 600
 	speed: 0
-	drag: 999
+	drag: 10
 	accel: 0
-	armor: 0
+	armor: 12
 	itemCapacity: 0
-	trailLength: 12
 	alwaysUnlocked: true
-	hitSize: 0.001
-	hittable: false
+	hitSize: 10
 	hidden: true
 	controllable: false
 	logicControllable: false
-	hittable: false
-	killable: false
-	targetable: false
-	healFlash: false
-	canBoost: false
-	canAttack: true
-	canDrown: false
-	canHeal: false
 
 	weapons: [
 		{
