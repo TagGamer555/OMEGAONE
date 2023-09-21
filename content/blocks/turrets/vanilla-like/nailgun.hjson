@@ -91,7 +91,7 @@
 				mirror: true
 				under: false
 				progress: recoil
-				moveRot: -10
+				moveRot: -5
 				moveX: 0
 				moveY: -1
 			}
@@ -103,7 +103,7 @@
 				progress: recoil
 				moveRot: 0
 				moveX: 0
-				moveY: 0
+				moveY: 2
 			}
 		]
 	}
