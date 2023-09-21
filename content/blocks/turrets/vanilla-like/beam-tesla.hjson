@@ -2,7 +2,7 @@
 	name: Beam Tesla
 	description: "Alternate Lancer, this weapons shoots longer ray of pure electricity, which may hit an air unit, if catches one. The power consumption and cost of this turret, however, is still unmatched.\n[stat]Tag: [white]ArmoryExtended[][]"
 	
-	health: 320
+	health: 1120
 	reload: 240
 	recoil: 1
 	rotateSpeed: 4

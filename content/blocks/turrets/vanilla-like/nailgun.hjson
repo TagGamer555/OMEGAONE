@@ -2,8 +2,8 @@
 	name: Nailgun
 	description: "Alternate Fuse, rapidly fires various nails at close range.\n[stat]Tag: [white]ArmoryExtended[][]"
 	
-	health: 220
-	reload: 10
+	health: 1980
+	reload: 5
 	recoil: 0.2
 	rotateSpeed: 5
 	shootSound: shootSnap
@@ -30,7 +30,7 @@
 			pierceArmor: true
 			smokeEffect: none
 			width: 4
-			height: 4
+			height: 8
 			shrinkY: 0
 			damage: 15
 			frontColor: 8E9097
