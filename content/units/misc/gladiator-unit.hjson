@@ -1,5 +1,5 @@
 {
-	flying: true
+	flying: false
 	name: Gladiator
 	description: Bush hid the facts!
 	lowAltitude: true
@@ -15,7 +15,7 @@
 	hidden: true
 	logicControllable: false
 	playerControllable: false
-	physics: false
+	controller: FlyingAI
 	rotateSpeed: 3
 
 	weapons: [
