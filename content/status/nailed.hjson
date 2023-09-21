@@ -2,11 +2,13 @@
 	name: Nailed
 	description: You have been Nailed!
 	damage: 0.2
-	speedMultiplier: 0.9
+	speedMultiplier: 0.85
+	reloadMultiplier: 0.9
+	healthMultiplier: 0.8
 	permanent: false
-	alwaysUnlocked: false
+	alwaysUnlocked: true
 	affinities: [
 		shocked
 	]
-	transitionDamage: 20
+	transitionDamage: 50
 }

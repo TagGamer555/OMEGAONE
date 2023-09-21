@@ -38,7 +38,7 @@
 			width: 3
 			height: 8
 			shrinkY: 0
-			damage: 10
+			damage: 20
 			frontColor: C8A58F
 			backColor: B18768
 			lifetime: 15
@@ -68,7 +68,7 @@
 			width: 3
 			height: 8
 			shrinkY: 0
-			damage: 15
+			damage: 25
 			frontColor: 8E9097
 			backColor: 767A84
 			lifetime: 15
