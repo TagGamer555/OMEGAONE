@@ -5,5 +5,8 @@
 	speedMultiplier: 0.9
 	permanent: false
 	alwaysUnlocked: false
-	affinities: ["shocked"]
+	affinities: [
+		shocked
+	]
+	transitionDamage: 20
 }
