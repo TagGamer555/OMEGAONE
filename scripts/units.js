@@ -1,4 +1,5 @@
 {
 	//region - misc
-	const galdiatorUnit = extend(buildingTether, "gladiator-unit", {});
+	const galdiatorUnit = extend(UnitType, "gladiator-unit", {});
+	gladiatorUnit.constructor = () => extend(UnitEntity, {});
 }
