@@ -1,6 +1,6 @@
 {
 	name: Conductor
-	description: "Alternate Arc, shoots homing bolt of pure energy.\n[stat]Tag: [white]ArmoryExtended[][]"
+	description: "Alternate Arc, shoots homing bolt of pure energy, inflicting the Shocked debuff on enemy hit. Unlike Arc, this turret is simply ineffective against groups of foes, but can target air units.\n[stat]Tag: [white]Alternative Weaponry[][]"
 	
 	health: 260
 	reload: 90

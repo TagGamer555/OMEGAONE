@@ -1,6 +1,6 @@
 {
 	name: Nailgun
-	description: "Alternate Fuse, rapidly fires various nails at close range.\n[stat]Tag: [white]ArmoryExtended[][]"
+	description: "Alternate Fuse, rapidly fires various nails at close range. The nails not made of Silicon will fall down on ground and form a trap which can hit ground units for extra damage.\n[stat]Tag: [white]Alternative Weaponry[][]"
 	
 	health: 1980
 	reload: 10
@@ -14,10 +14,6 @@
 		silicon/75
 		titanium/100
 	]
-	//shootY: 0
-	//shoot: {
-	//	firstShotDelay: 0
-	//}
 	//liquidCapacity: 16
 	size: 3
 	range: 180
@@ -34,10 +30,39 @@
 	//unitSort: strongest
 	accurateDelay: false
 	ammoTypes: {
+		copper: {
+			//sprite: omegaone-nail
+			pierceArmor: true
+			//smokeEffect: none
+			despawnEffect: none
+			width: 4
+			height: 8
+			shrinkY: 0
+			damage: 10
+			frontColor: C8A58F
+			backColor: B18768
+			lifetime: 30
+			speed: 6
+			ammoMultiplier: 2
+			reloadMultiplier: 1
+			fragBullets: 1
+			fragBullet: {
+				shrinkY: 0
+				speed: 10
+				drag: 0.025
+				damage: 20
+				lifetime: 60
+				collidesAir: false
+				status: nailed
+				statusDuration: 120
+				frontColor: C8A58F
+				backColor: B18768
+			}
+		}
 		silicon: {
 			//sprite: omegaone-nail
 			pierceArmor: true
-			smokeEffect: none
+			//smokeEffect: none
 			width: 4
 			height: 8
 			shrinkY: 0
@@ -48,7 +73,7 @@
 			speed: 6
 			//status: nailed
 			//statusDuration: 200
-			ammoMultiplier: 8
+			ammoMultiplier: 4
 			homingRange: 20
 			homingPower: 0.03
 			reloadMultiplier: 0.9
