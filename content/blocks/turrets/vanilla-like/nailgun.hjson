@@ -26,13 +26,13 @@
 	accurateDelay: false
 	ammoTypes: {
 		silicon: {
-			sprite: omegaone-nail
+			//sprite: omegaone-nail
 			pierceArmor: true
 			smokeEffect: none
 			width: 4
 			height: 4
 			shrinkY: 0
-			damage: 5
+			damage: 15
 			frontColor: 8E9097
 			backColor: 767A84
 			lifetime: 30
@@ -41,7 +41,8 @@
 			//statusDuration: 200
 			ammoMultiplier: 8
 			homingRange: 40
-			homingPower: 0.01
+			homingPower: 0.02
+			reloadMultiplier: 1.25
 		}
 	}
 	category: turret
