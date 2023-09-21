@@ -8,12 +8,16 @@
 	drag: 10
 	accel: 0
 	armor: 12
+	targetAir: false
 	itemCapacity: 0
 	alwaysUnlocked: true
 	hitSize: 10
 	hidden: true
 	controllable: false
 	logicControllable: false
+	playerControllable: false
+	physics: false
+	rotateSpeed: 3
 
 	weapons: [
 		{
@@ -24,25 +28,26 @@
 			reload: 180
 			mirror: false
 			alternate: false
-			shootSound: shootAlt
-			recoil: 2
-			top: false
+			shootSound: artillery
+			recoil: 3
+			velocityRnd: 0.2
 			shoot: {
 				type: ShootPattern
-				shots: 3
-				shotDelay: 5
+				shots: 5
+				shotDelay: 0
 			}
-			inaccuracy: 3
+			inaccuracy: 5
 			bullet: {
 				type: ArtilleryBulletType
 				height: 12
 				width: 10
-				damage: 80
-				splashDamage: 40
-				splashDamageRadius: 120
+				damage: 20
+				splashDamage: 20
+				splashDamageRadius: 90
 				speed: 2
-				lifetime: 60
+				lifetime: 120
 				buildingDamageMultiplier: 0.2
+				collidesAir: false
 			}
 		}
 	]
