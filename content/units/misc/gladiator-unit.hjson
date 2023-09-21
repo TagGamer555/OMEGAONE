@@ -1,13 +1,14 @@
 {
-	flying: false
+	type: Flying
+	flying: true
 	name: Gladiator
 	description: Bush hid the facts!
 	lowAltitude: true
-	health: 600
-	speed: 0
-	drag: 10
-	accel: 0
-	armor: 12
+	health: 900
+	speed: 4
+	drag: 0.04
+	accel: 0.08
+	armor: 8
 	targetAir: false
 	itemCapacity: 0
 	alwaysUnlocked: true
@@ -17,14 +18,15 @@
 	playerControllable: false
 	rotateSpeed: 3
 	useUnitCap: false
+	
 
 	weapons: [
 		{
-			name: gladiator-unit-weapon
+			//name: gladiator-unit-weapon
 			x: 0
 			y: 0
 			rotate: false
-			reload: 180
+			reload: 20
 			mirror: false
 			alternate: false
 			shootSound: artillery
@@ -33,18 +35,15 @@
 			shoot: {
 				type: ShootPattern
 				shots: 5
-				shotDelay: 0
+				shotDelay: 3
 			}
-			inaccuracy: 5
+			inaccuracy: 1
 			bullet: {
-				type: ArtilleryBulletType
-				height: 12
-				width: 10
-				damage: 20
-				splashDamage: 20
-				splashDamageRadius: 90
-				speed: 2
-				lifetime: 120
+				height: 10
+				width: 8
+				damage: 24
+				speed: 6
+				lifetime: 15
 				buildingDamageMultiplier: 0.2
 				collidesAir: false
 			}

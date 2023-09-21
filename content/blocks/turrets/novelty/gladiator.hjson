@@ -1,10 +1,10 @@
 {
 	name: Gladiator
-	description: "Novelty technology amongst farcomers. Creates a unit-operated turret, that requires no ammo but is generally weaker than regular turret.\n[stat]Tag: [white]Novelty Tech[][]"
+	description: "Novelty technology amongst farcomers. Creates a unit which automatically sieges the nearest enemy structures with powerful weaponry.\n[stat]Tag: [white]Novelty Tech[][]"
 	
 	health: 900
 	size: 2
-	category: turret
+	category: units
 	
 	requirements: [
 		lead/200
@@ -24,5 +24,6 @@
 	
 	consumes: {
 		power: 4.25
+		oil/0.0333333333333333333
 	}
 }
