@@ -1,5 +1,5 @@
 {
-	type: flying
+	type: droneType
 	flying: true
 	name: Gladiator
 	description: Bush hid the facts!
