@@ -1,6 +1,6 @@
 {
 	name: Steel Smelter
-	description: Burns coal while melting iron, resulting in steel.
+	description: "Burns coal while melting iron, resulting in steel.\n[stat]Tag: [white]Major[][]"
 	
 	category: crafting
 	
@@ -34,7 +34,7 @@
 	
 	outputItem: {
 		item: steel
-		amount: 4
+		amount: 1
 	}
 	craftTime: 120
 }
