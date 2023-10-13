@@ -1,0 +1,31 @@
+{
+	name: Combustion Heater
+	description: "Creates heat by burning items.\n[stat]Tag: [white]Major[][]"
+	size: 2
+	rotateDraw: false
+	//researchCostMultiplier: 4
+	category: crafting
+	research: graphite-press
+	requirements: [
+		lead/60
+		graphite/80
+	]
+	heatOutput: 2
+	regionRotated1: 1
+	ambientSound: extractLoop
+	ambientSoundVolume: 0.1
+	consumes: {
+		itemFlammable: {}
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault 
+			}
+			{
+				type: DrawHeatOutput 
+			}
+		]
+	}
+}

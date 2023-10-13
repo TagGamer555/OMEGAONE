@@ -5,5 +5,7 @@
 	const nailgun = extend(ItemTurret, "nailgun", {});
 	//region - crafting
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
-	const ironCaster = extend(GenericCrafter, "iron-caster", {});
+	const ironCaster = extend(HeatCrafter, "iron-caster", {});
+	//region - heat
+	const combustionHeater = extend(HeatProducer, "combustion-heater", {});
 }
