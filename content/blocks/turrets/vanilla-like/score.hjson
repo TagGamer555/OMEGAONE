@@ -6,7 +6,7 @@
 	reload: 60
 	recoil: 0
 	rotateSpeed: 4
-	shootSound: eject
+	shootSound: release
 	
 	requirements: [
 		steel/40
@@ -21,8 +21,7 @@
 	}
 	size: 1
 	range: 120
-	shake: 1
-	unitSort: farthest
+	shake: 0
 	consumes: {
 		power: 2.5
 	}
@@ -58,24 +57,41 @@
 			]
 		}
 		despawnEffect: {
-			type: WaveEffect
-			sides: 0
-			sizeFrom: 8
-			sizeTo: 0
-			strokeTo: 0
-			lifetime: 30
-			colorFrom: FFFFFF
-			colorTo: A8D8FF
-			lightScl: 3
-			lightColor: A8D8FF
+			type: MultiEffect
+			effects: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 8
+					strokeTo: 0
+					lifetime: 30
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
+					lightScl: 3
+					lightColor: A8D8FF
+				}
+				{
+					particles: 3
+					sizeFrom: 3
+					sizeTo: 0
+					lifetime: 120
+					length: 10
+					colorFrom: FFFFFF80
+					colorTo: A8D8FF00
+					lightScl: 2
+					lightColor: A8D8FF
+					region: omegaone-pixel
+				}
+			]
 		}
 		smokeEffect: none
-		homingRange: 10
-		homingPower: 0.35
+		homingRange: 80
+		homingPower: 0.01
 		width: 2
 		height: 2
 		shrinkY: 0
-		damage: 30
+		damage: 12
 		frontColor: FFFFFF
 		backColor: A8D8FF
 		trailColor: A8D8FF
