@@ -1,0 +1,36 @@
+{
+	name: Iron Caster
+	description: "Casts molten iron into silicon.\n[stat]Tag: [white]Major[][]"
+	
+	category: crafting
+	
+	research: graphite-press
+	
+	requirements: [
+		iron/60
+		silicon/70
+		lead/30
+	]
+	
+	size: 2
+	
+	craftEffect: smeltsmoke
+	
+	ambientSound: smelter
+	ambientSoundVolume: 0.1
+	
+	consumes: {
+		items: {
+			items: [
+				iron/2
+				silicon/1
+			]
+		}
+	}
+	
+	outputItem: {
+		item: cast-iron
+		amount: 1
+	}
+	craftTime: 180
+}

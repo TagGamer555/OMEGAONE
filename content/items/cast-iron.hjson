@@ -1,0 +1,7 @@
+{
+	name: Cast Iron
+	description: "Reinforced iron. Capable of withstanding more weight.\n[stat]Tag: [white]Major[][]"
+	color: 858585
+	research: iron
+	cost: 4
+}
