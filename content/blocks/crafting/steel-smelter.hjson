@@ -1,0 +1,40 @@
+{
+	name: Steel Smelter
+	description: Burns coal while melting iron, resulting in steel.
+	
+	category: crafting
+	
+	research: graphite-press
+	
+	requirements: [
+		iron/60
+		graphite/70
+		copper/30
+	]
+	
+	size: 2
+	
+	craftEffect: smeltsmoke
+	drawer: {
+		type: DrawMulti
+		drawers: [DrawDefault, DrawFlame]
+	}
+	
+	ambientSound: smelter
+	ambientSoundVolume: 0.1
+	
+	consumes: {
+		items: {
+			items: [
+				iron/2
+				coal/3
+			]
+		}
+	}
+	
+	outputItem: {
+		item: steel
+		amount: 4
+	}
+	craftTime: 120
+}

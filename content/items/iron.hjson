@@ -1,0 +1,7 @@
+{
+	name: Iron
+	description: "Heavy, dense, pure iron. Can be used in alloying.\n[stat]Tag: [white]Major[][]"
+	color: A68A84
+	research: copper
+	hardness: 3
+}

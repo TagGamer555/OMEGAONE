@@ -1,0 +1,7 @@
+{
+	name: Steel
+	description: "Reinforced iron. Capable of withstanding more damage.\n[stat]Tag: [white]Major[][]"
+	color: DADBE1
+	research: iron
+	cost: 2
+}
