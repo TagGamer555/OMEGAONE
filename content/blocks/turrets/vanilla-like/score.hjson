@@ -1,0 +1,102 @@
+{
+	name: Score
+	description: "A turret, which shoots homing and weaving energy matter.\n[stat]Tag: [white]Major[][]"
+	
+	health: 320
+	reload: 60
+	recoil: 0
+	rotateSpeed: 4
+	shootSound: missile
+	
+	requirements: [
+		steel/40
+		cast-iron/20
+		lead/30
+	]
+	//shootY: 0
+	//liquidCapacity: 16
+	size: 1
+	range: 120
+	shake: 1
+	unitSort: farthest
+	consumes: {
+		power: 2.5
+	}
+	shootType: {
+		pierceArmor: false
+		hitEffect: {
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 8
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: FFFFFF
+			colorTo: A8D8FF
+			lightScl: 3
+			lightColor: A8D8FF
+		}
+		despawnEffect: {
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 8
+			sizeTo: 0
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: FFFFFF
+			colorTo: A8D8FF
+			lightScl: 3
+			lightColor: A8D8FF
+		}
+		smokeEffect: none
+		homingRange: 50
+		homingPower: 0.2
+		width: 6
+		height: 8
+		shrinkY: 0
+		damage: 30
+		frontColor: FFFFFF
+		backColor: A8D8FF
+		trailColor: A8D8FF
+		trailLength: 10
+		trailWidth: 1
+		lifetime: 20
+		speed: 6
+		status: shocked
+		statusDuration: 120
+		ammoMultiplier: 1
+		sprite: omegaone-pixel
+		weaveScale: 12
+		weaveMag: 2
+		shootEffect: {
+			type: MultiEffect
+			effects: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 8
+					strokeTo: 0
+					lifetime: 25
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
+					lightScl: 3
+					lightColor: A8D8FF
+				}
+				{
+					particles: 4
+					sizeFrom: 2
+					sizeTo: 0
+					lifetime: 60
+					length: 20
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
+					lightScl: 3
+					lightColor: A8D8FF
+				}
+			]
+		}
+	}
+	category: turret
+	research: arc
+}
