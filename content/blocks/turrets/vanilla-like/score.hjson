@@ -6,7 +6,7 @@
 	reload: 60
 	recoil: 0
 	rotateSpeed: 4
-	shootSound: missile
+	shootSound: eject
 	
 	requirements: [
 		steel/40
@@ -15,6 +15,10 @@
 	]
 	//shootY: 0
 	//liquidCapacity: 16
+	shoot: {
+		shots: 3
+		shotDelay: 3
+	}
 	size: 1
 	range: 120
 	shake: 1
@@ -51,17 +55,17 @@
 		smokeEffect: none
 		homingRange: 50
 		homingPower: 0.2
-		width: 4
-		height: 4
+		width: 2
+		height: 2
 		shrinkY: 0
 		damage: 30
 		frontColor: FFFFFF
 		backColor: A8D8FF
 		trailColor: A8D8FF
 		trailLength: 10
-		trailWidth: 2
-		lifetime: 20
-		speed: 6
+		trailWidth: 1.5
+		lifetime: 40
+		speed: 3
 		status: shocked
 		statusDuration: 120
 		ammoMultiplier: 1
@@ -93,6 +97,7 @@
 					colorTo: A8D8FF
 					lightScl: 3
 					lightColor: A8D8FF
+					region: omegaone-pixel
 				}
 			]
 		}
