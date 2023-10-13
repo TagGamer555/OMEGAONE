@@ -51,23 +51,23 @@
 		smokeEffect: none
 		homingRange: 50
 		homingPower: 0.2
-		width: 6
-		height: 8
+		width: 4
+		height: 4
 		shrinkY: 0
 		damage: 30
 		frontColor: FFFFFF
 		backColor: A8D8FF
 		trailColor: A8D8FF
 		trailLength: 10
-		trailWidth: 1
+		trailWidth: 2
 		lifetime: 20
 		speed: 6
 		status: shocked
 		statusDuration: 120
 		ammoMultiplier: 1
 		sprite: omegaone-pixel
-		weaveScale: 12
-		weaveMag: 2
+		weaveScale: 2
+		weaveMag: 8
 		shootEffect: {
 			type: MultiEffect
 			effects: [
