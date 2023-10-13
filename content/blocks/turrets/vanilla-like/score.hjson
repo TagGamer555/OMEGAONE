@@ -29,16 +29,33 @@
 	shootType: {
 		pierceArmor: false
 		hitEffect: {
-			type: WaveEffect
-			sides: 0
-			sizeFrom: 0
-			sizeTo: 8
-			strokeTo: 0
-			lifetime: 30
-			colorFrom: FFFFFF
-			colorTo: A8D8FF
-			lightScl: 3
-			lightColor: A8D8FF
+			type: MultiEffect
+			effects: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 8
+					strokeTo: 0
+					lifetime: 30
+					colorFrom: FFFFFF
+					colorTo: A8D8FF
+					lightScl: 3
+					lightColor: A8D8FF
+				}
+				{
+					particles: 3
+					sizeFrom: 3
+					sizeTo: 0
+					lifetime: 120
+					length: 10
+					colorFrom: FFFFFF80
+					colorTo: A8D8FF00
+					lightScl: 2
+					lightColor: A8D8FF
+					region: omegaone-pixel
+				}
+			]
 		}
 		despawnEffect: {
 			type: WaveEffect
@@ -53,8 +70,8 @@
 			lightColor: A8D8FF
 		}
 		smokeEffect: none
-		homingRange: 50
-		homingPower: 0.2
+		homingRange: 10
+		homingPower: 0.35
 		width: 2
 		height: 2
 		shrinkY: 0
