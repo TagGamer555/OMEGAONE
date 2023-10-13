@@ -87,7 +87,7 @@
 		}
 		smokeEffect: none
 		homingRange: 80
-		homingPower: 0.01
+		homingPower: 0.05
 		width: 2
 		height: 2
 		shrinkY: 0
@@ -96,7 +96,7 @@
 		backColor: A8D8FF
 		trailColor: A8D8FF
 		trailLength: 10
-		trailWidth: 1.5
+		trailWidth: 1.25
 		lifetime: 40
 		speed: 3
 		status: shocked
