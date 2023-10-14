@@ -1,0 +1,38 @@
+{
+	name: Heat Pipe Router
+	description: "Distributes the heat via heat insulation.\n[stat]Tag: [white]Major[][]"
+	size: 1
+	regionRotated1: 1
+	splitHeat: true
+	category: crafting
+	research: heat-pipe
+	requirements: [
+		graphite/16
+		lead/12
+	]
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+			{
+				type: DrawHeatOutput
+				rotOffset: -1
+				drawGlow: false
+			}
+			{
+				type: DrawHeatOutput
+			}
+			{
+				type: DrawHeatOutput
+				rotOffset: 1
+				drawGlow: false
+			}
+			{
+				type: DrawHeatInput
+				suffix: -heat
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	name: Heat Pipe
+	description: "Redirects the heat via heat insulation.\n[stat]Tag: [white]Major[][]"
+	requirements: [
+		graphite/12
+		lead/8
+	]
+	category: crafting
+	research: combustion-heater
+	size: 1
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault 
+			}
+			{
+				type: DrawHeatOutput
+			}
+			{
+				type: DrawHeatInput
+				suffix: -heat
+			}
+		]
+	}
+	regionRotated1: 1
+}
