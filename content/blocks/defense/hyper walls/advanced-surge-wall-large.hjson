@@ -34,7 +34,7 @@
 	}
 	shootType: {
 		type: LightningBulletType
-		lightningLength: 24
+		lightningLength: 18
 		damage: 20
 		lightningColor: A8D8FF
 		status: shocked
