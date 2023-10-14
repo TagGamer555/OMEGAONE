@@ -3,7 +3,7 @@
 	description: "A surge alloy wall, now shooting at enemies nearby.\n[stat]Tag: [white]Hyper[][]"
 	
 	health: 1240
-	reload: 180
+	reload: 60
 	recoil: 0
 	rotateSpeed: 999
 	shootSound: spark
@@ -19,14 +19,14 @@
 	//shootY: 0
 	//liquidCapacity: 16
 	size: 1
-	range: 39
+	range: 30
 	shake: 0
 	consumes: {
 		power: 0.5
 	}
 	shootType: {
 		type: LightningBulletType
-		lightningLength: 5
+		lightningLength: 10
 		damage: 10
 		lightningColor: A8D8FF
 		status: shocked
