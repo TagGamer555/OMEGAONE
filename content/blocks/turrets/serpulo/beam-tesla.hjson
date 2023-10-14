@@ -15,7 +15,7 @@
 		silicon/80
 		titanium/60
 	]
-	shootY: 0
+	shootY: 2
 	shoot: {
 		firstShotDelay: 40
 	}
@@ -57,7 +57,7 @@
 		]
 		pointEffect: {
 			type: ParticleEffect
-			region: omegaone-rail-line
+			region: omegaone-rail-line-half
 			lightScl: 3
 			lightColor: A8D8FF
 			particles: 1
