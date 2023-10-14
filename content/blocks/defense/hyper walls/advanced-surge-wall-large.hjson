@@ -9,13 +9,13 @@
 	shootSound: spark
 	
 	conductivePower: true
-	buildSpeed: 480
 	
 	requirements: [
 		surge-alloy/32
 		silicon/8
 		copper/48
 		lead/48
+		titanium/20
 	]
 	
 	shoot: {
@@ -27,14 +27,14 @@
 	//shootY: 0
 	//liquidCapacity: 16
 	size: 2
-	range: 120
+	range: 80
 	shake: 0
 	consumes: {
 		power: 0.4
 	}
 	shootType: {
 		type: LightningBulletType
-		lightningLength: 18
+		lightningLength: 10
 		damage: 20
 		lightningColor: A8D8FF
 		status: shocked
