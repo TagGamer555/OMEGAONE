@@ -16,8 +16,9 @@
 	//shootY: 0
 	//liquidCapacity: 16
 	shoot: {
+		type: ShootSpread
 		shots: 3
-		shotDelay: 3
+		spread: 10
 	}
 	size: 1
 	range: 120
