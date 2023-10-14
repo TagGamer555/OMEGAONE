@@ -55,14 +55,27 @@
 				lightColor: A8D8FF
 			}
 		]
-		type: LaserBulletType
+		pointEffect: {
+			type: ParticleEffect
+			region: omegaone-rail-line
+			lightScl: 3
+			lightColor: A8D8FF
+			particles: 1
+			length: 0
+			sizeFrom: 10
+			sizeTo: 10
+			lifetime: 25
+			colorFrom: FFFFFFFF
+			colorTo: A8D8FF00
+		}
+		pierceEffect: {}
+		type: RailBulletType
 		pierceArmor: true
 		pierce: true
 		pierceCap: 3
 		hitEffect: none
 		despawnEffect: none
 		smokeEffect: none
-		width: 10
 		length: 200
 		damage: 300
 		status: shocked
@@ -97,7 +110,7 @@
 				}
 			]
 		}
-		colors: [A8D8FF, A8D8FF, FFFFFF] //first - mid; second - dark; third - light;
+		//colors: [A8D8FF, A8D8FF, FFFFFF] //first - mid; second - dark; third - light;
 	}
 	category: turret
 	research: lancer
