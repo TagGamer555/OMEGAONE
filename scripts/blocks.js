@@ -9,4 +9,6 @@
 	const ironCaster = extend(HeatCrafter, "iron-caster", {});
 	//region - heat
 	const combustionHeater = extend(HeatProducer, "combustion-heater", {});
+	//region - defense
+	const advancedSurgeWall = extend(PowerTurret, "advanced-surge-wall", {});
 }
