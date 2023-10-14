@@ -34,6 +34,7 @@
 		status: shocked
 		statusDuration: 30
 		pierceArmor: true
+		ammoMultiplier: 1
 	}
 	category: defense
 	research: surge-alloy-wall
