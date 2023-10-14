@@ -9,6 +9,7 @@
 	shootSound: spark
 	
 	conductivePower: true
+	buildSpeed: 120
 	
 	requirements: [
 		surge-alloy/8

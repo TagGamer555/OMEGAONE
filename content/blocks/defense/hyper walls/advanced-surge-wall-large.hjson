@@ -1,0 +1,46 @@
+{
+	name: Advanced Surge Wall Large
+	description: "A large surge alloy wall, now shooting at enemies nearby.\n[stat]Tag: [white]Hyper[][]"
+	
+	health: 4960
+	reload: 60
+	recoil: 0
+	rotateSpeed: 999
+	shootSound: spark
+	
+	conductivePower: true
+	buildSpeed: 480
+	
+	requirements: [
+		surge-alloy/32
+		silicon/8
+		copper/48
+		lead/48
+	]
+	
+	shoot: {
+		type: ShootSpread
+		shots: 2
+		spread: 12
+	}
+	
+	//shootY: 0
+	//liquidCapacity: 16
+	size: 2
+	range: 120
+	shake: 0
+	consumes: {
+		power: 0.4
+	}
+	shootType: {
+		type: LightningBulletType
+		lightningLength: 24
+		damage: 20
+		lightningColor: A8D8FF
+		status: shocked
+		statusDuration: 60
+		pierceArmor: true
+	}
+	category: defense
+	research: advanced-surge-wall
+}
