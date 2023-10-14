@@ -27,7 +27,7 @@
 	//shootY: 0
 	//liquidCapacity: 16
 	size: 2
-	range: 80
+	range: 70
 	shake: 0
 	consumes: {
 		power: 0.4
