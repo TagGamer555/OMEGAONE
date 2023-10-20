@@ -6,7 +6,7 @@
 	const score = extend(PowerTurret, "score", {});
 	const slugger = extend(ItemTurret, "slugger", {});
 	//region - crafting
-	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
+	const steelSmelter = extend(HeatCrafter, "steel-smelter", {});
 	const ironCaster = extend(HeatCrafter, "iron-caster", {});
 	//region - heat
 	const combustionHeater = extend(HeatProducer, "combustion-heater", {});

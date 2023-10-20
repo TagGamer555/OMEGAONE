@@ -15,9 +15,10 @@
 	size: 2
 	
 	craftEffect: smeltsmoke
+	heatRequirement: 2
 	drawer: {
 		type: DrawMulti
-		drawers: [DrawDefault, DrawFlame]
+		drawers: [DrawDefault, DrawFlame, DrawHeatInput]
 	}
 	
 	ambientSound: smelter
@@ -27,7 +28,7 @@
 		items: {
 			items: [
 				iron/2
-				coal/3
+				graphite/1
 			]
 		}
 	}
@@ -36,5 +37,5 @@
 		item: steel
 		amount: 1
 	}
-	craftTime: 120
+	craftTime: 180
 }
