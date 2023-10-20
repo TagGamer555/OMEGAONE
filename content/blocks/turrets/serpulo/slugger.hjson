@@ -16,7 +16,7 @@
 	]
 	
 	size: 1
-	range: 120
+	range: 80
 	shake: 0.25
 	inaccuracy: 0
 	unitSort: strongest
@@ -24,16 +24,16 @@
 	ammoPerShot: 2
 	ammoTypes: {
 		lead: {
-			pierceArmor: true
+			pierceArmor: false
 			width: 6
 			height: 8
 			shrinkY: 0
 			damage: 34
-			knockback: 0.5
+			knockback: 1
 			status: unmoving
 			statusDuration: 20
-			lifetime: 20
-			speed: 6
+			lifetime: 40
+			speed: 2
 			ammoMultiplier: 1
 			reloadMultiplier: 1
 			hitEffect: [
@@ -67,6 +67,46 @@
 					sides: 0
 					sizeFrom: 0
 					sizeTo: 7.5
+					strokeFrom: 4
+					strokeTo: 0
+					lifetime: 40
+					colorFrom: 808080
+					colorTo: 404040
+					lightScl: 0
+					lightColor: 000000
+				}
+				{
+					particles: 3
+					length: 5
+					lifetime: 40
+					colorFrom: 808080FF
+					colorTo: 40404000
+					lightScl: 0
+					lightColor: 000000
+					sizeFrom: 3
+					sizeTo: 3
+				}
+			]
+		}
+		graphite: {
+			pierceArmor: false
+			width: 7
+			height: 8
+			shrinkY: 0
+			damage: 52
+			knockback: 2
+			status: unmoving
+			statusDuration: 30
+			lifetime: 40
+			speed: 2
+			ammoMultiplier: 1
+			reloadMultiplier: 0.8
+			hitEffect: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 7.5
 					strokeTo: 0
 					lifetime: 20
 					colorFrom: 808080
@@ -84,6 +124,97 @@
 					lightColor: 000000
 					sizeFrom: 4
 					sizeTo: 4
+				}
+			]
+			despawnEffect: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 7.5
+					strokeFrom: 4
+					strokeTo: 0
+					lifetime: 40
+					colorFrom: 808080
+					colorTo: 404040
+					lightScl: 0
+					lightColor: 000000
+				}
+				{
+					particles: 3
+					length: 5
+					lifetime: 40
+					colorFrom: 808080FF
+					colorTo: 40404000
+					lightScl: 0
+					lightColor: 000000
+					sizeFrom: 3
+					sizeTo: 3
+				}
+			]
+		}
+		titanium: {
+			pierceArmor: false
+			width: 6
+			height: 8
+			shrinkY: 0
+			damage: 64
+			knockback: 0.6
+			status: unmoving
+			statusDuration: 10
+			lifetime: 40
+			speed: 2
+			ammoMultiplier: 1
+			reloadMultiplier: 0.7
+			hitEffect: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 7.5
+					strokeTo: 0
+					lifetime: 20
+					colorFrom: 808080
+					colorTo: 404040
+					lightScl: 0
+					lightColor: 000000
+				}
+				{
+					particles: 3
+					length: 10
+					lifetime: 20
+					colorFrom: 808080FF
+					colorTo: 40404000
+					lightScl: 0
+					lightColor: 000000
+					sizeFrom: 4
+					sizeTo: 4
+				}
+			]
+			despawnEffect: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 7.5
+					strokeFrom: 4
+					strokeTo: 0
+					lifetime: 40
+					colorFrom: 808080
+					colorTo: 404040
+					lightScl: 0
+					lightColor: 000000
+				}
+				{
+					particles: 3
+					length: 5
+					lifetime: 40
+					colorFrom: 808080FF
+					colorTo: 40404000
+					lightScl: 0
+					lightColor: 000000
+					sizeFrom: 3
+					sizeTo: 3
 				}
 			]
 		}
