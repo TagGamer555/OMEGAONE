@@ -38,5 +38,5 @@
 		ammoMultiplier: 1
 	}
 	category: defense
-	research: surge-alloy-wall
+	research: surge-wall
 }

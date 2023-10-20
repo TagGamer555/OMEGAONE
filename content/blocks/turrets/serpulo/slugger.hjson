@@ -41,6 +41,8 @@
 			despawnSound: bang
 			collidesAir: false
 			collidesGround: true
+			splashDamage: 34
+			splashRange: 0.1
 			hitEffect: [
 				{
 					type: WaveEffect
@@ -111,6 +113,8 @@
 			despawnSound: bang
 			collidesAir: false
 			collidesGround: true
+			splashDamage: 52
+			splashRange: 0.1
 			hitEffect: [
 				{
 					type: WaveEffect
@@ -181,6 +185,8 @@
 			despawnSound: bang
 			collidesAir: false
 			collidesGround: true
+			splashDamage: 64
+			splashRange: 0.1
 			hitEffect: [
 				{
 					type: WaveEffect
