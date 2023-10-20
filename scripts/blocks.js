@@ -14,4 +14,6 @@
 	//region - defense
 	const advancedSurgeWall = extend(PowerTurret, "advanced-surge-wall", {});
 	const advancedSurgeWallLarge = extend(PowerTurret, "advanced-surge-wall-large", {});
+	const siliconCarbideWall = extend(Wall, "silicon-carbide-wall", {});
+	const siliconCarbideWallLarge = extend(Wall, "silicon-carbide-wall-large", {});
 }

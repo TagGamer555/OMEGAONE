@@ -1,0 +1,15 @@
+{
+	name: Silicon Carbide Wall Large
+	description: "Wall, made of silicon and graphite. Armored and conducts power. Larger version.\n[stat]Tag: [white]Minor[][]"
+	health: 2000
+	armor: 5
+	size: 2
+	requirements: [
+		graphite/32
+		silicon/32
+		titanium/8
+	]
+	category: defense
+	research: silicon-carbide-wall
+	conductivePower: true
+}
