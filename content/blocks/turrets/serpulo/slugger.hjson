@@ -24,6 +24,7 @@
 	ammoPerShot: 2
 	ammoTypes: {
 		lead: {
+			type: artilleryBulletType
 			pierceArmor: false
 			width: 6
 			height: 8
@@ -89,6 +90,7 @@
 			]
 		}
 		graphite: {
+			type: artilleryBulletType
 			pierceArmor: false
 			width: 7
 			height: 8
@@ -154,6 +156,7 @@
 			]
 		}
 		titanium: {
+			type: artilleryBulletType
 			pierceArmor: false
 			width: 6
 			height: 8
@@ -230,7 +233,7 @@
 				type: RegionPart
 				suffix: -barrel
 				mirror: false
-				under: true
+				under: false
 				progress: recoil
 				moveRot: 0
 				moveX: 0
