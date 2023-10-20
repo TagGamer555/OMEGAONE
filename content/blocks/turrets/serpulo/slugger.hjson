@@ -37,6 +37,8 @@
 			speed: 2
 			ammoMultiplier: 1
 			reloadMultiplier: 1
+			hitSound: bang
+			despawnSound: bang
 			hitEffect: [
 				{
 					type: WaveEffect
@@ -67,19 +69,19 @@
 					type: WaveEffect
 					sides: 0
 					sizeFrom: 0
-					sizeTo: 7.5
-					strokeFrom: 4
+					sizeTo: 15
+					strokeFrom: 5
 					strokeTo: 0
-					lifetime: 40
-					colorFrom: 808080
-					colorTo: 404040
+					lifetime: 20
+					colorFrom: 808080FF
+					colorTo: 40404000
 					lightScl: 0
 					lightColor: 000000
 				}
 				{
-					particles: 3
-					length: 5
-					lifetime: 40
+					particles: 4
+					length: 10
+					lifetime: 20
 					colorFrom: 808080FF
 					colorTo: 40404000
 					lightScl: 0
@@ -103,6 +105,8 @@
 			speed: 2
 			ammoMultiplier: 1
 			reloadMultiplier: 0.8
+			hitSound: bang
+			despawnSound: bang
 			hitEffect: [
 				{
 					type: WaveEffect
@@ -133,19 +137,19 @@
 					type: WaveEffect
 					sides: 0
 					sizeFrom: 0
-					sizeTo: 7.5
-					strokeFrom: 4
+					sizeTo: 15
+					strokeFrom: 5
 					strokeTo: 0
-					lifetime: 40
-					colorFrom: 808080
-					colorTo: 404040
+					lifetime: 20
+					colorFrom: 808080FF
+					colorTo: 40404000
 					lightScl: 0
 					lightColor: 000000
 				}
 				{
-					particles: 3
-					length: 5
-					lifetime: 40
+					particles: 4
+					length: 10
+					lifetime: 20
 					colorFrom: 808080FF
 					colorTo: 40404000
 					lightScl: 0
@@ -169,6 +173,8 @@
 			speed: 2
 			ammoMultiplier: 1
 			reloadMultiplier: 0.7
+			hitSound: bang
+			despawnSound: bang
 			hitEffect: [
 				{
 					type: WaveEffect
@@ -199,19 +205,19 @@
 					type: WaveEffect
 					sides: 0
 					sizeFrom: 0
-					sizeTo: 7.5
-					strokeFrom: 4
+					sizeTo: 15
+					strokeFrom: 5
 					strokeTo: 0
-					lifetime: 40
-					colorFrom: 808080
-					colorTo: 404040
+					lifetime: 20
+					colorFrom: 808080FF
+					colorTo: 40404000
 					lightScl: 0
 					lightColor: 000000
 				}
 				{
-					particles: 3
-					length: 5
-					lifetime: 40
+					particles: 4
+					length: 10
+					lifetime: 20
 					colorFrom: 808080FF
 					colorTo: 40404000
 					lightScl: 0
