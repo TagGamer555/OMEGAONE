@@ -39,6 +39,8 @@
 			reloadMultiplier: 1
 			hitSound: bang
 			despawnSound: bang
+			collidesAir: false
+			collidesGround: true
 			hitEffect: [
 				{
 					type: WaveEffect
@@ -107,6 +109,8 @@
 			reloadMultiplier: 0.8
 			hitSound: bang
 			despawnSound: bang
+			collidesAir: false
+			collidesGround: true
 			hitEffect: [
 				{
 					type: WaveEffect
@@ -175,6 +179,8 @@
 			reloadMultiplier: 0.7
 			hitSound: bang
 			despawnSound: bang
+			collidesAir: false
+			collidesGround: true
 			hitEffect: [
 				{
 					type: WaveEffect
