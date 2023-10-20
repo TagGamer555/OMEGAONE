@@ -1,5 +1,5 @@
 {
-	name: Silicon Carbide Wall Large
+	name: Large Silicon Carbide Wall
 	description: "Wall, made of silicon and graphite. Armored and conducts power. Larger version.\n[stat]Tag: [white]Minor[][]"
 	health: 2000
 	armor: 5

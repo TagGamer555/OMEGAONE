@@ -1,0 +1,62 @@
+{
+	name: Slugger
+	description: "Shoots slugs made from different materials. Deals damage only to ground targets, pushing them back.\n[stat]Tag: [white]Major[][]"
+	
+	health: 420
+	reload: 90
+	recoil: 0.3
+	rotateSpeed: 4
+	shootSound: artillery
+	targetAir: false
+	
+	requirements: [
+		iron/40
+		copper/20
+		lead/30
+	]
+	
+	size: 1
+	range: 120
+	shake: 0.25
+	inaccuracy: 0
+	unitSort: strongest
+	accurateDelay: false
+	ammoPerShot: 2
+	ammoTypes: {
+		lead: {
+			pierceArmor: true
+			width: 6
+			height: 8
+			shrinkY: 0
+			damage: 34
+			knockback: 0.5
+			status: unmoving
+			statusDuration: 20
+			lifetime: 20
+			speed: 6
+			ammoMultiplier: 1
+			reloadMultiplier: 1
+			hitEffect: explosionSmall
+			despawnEffect: explosionSmall
+		}
+	}
+	
+	category: turret
+	research: duo
+	
+	drawer: {
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -barrel
+				mirror: false
+				under: true
+				progress: recoil
+				moveRot: 0
+				moveX: 0
+				moveY: -2
+			}
+		]
+	}
+}
