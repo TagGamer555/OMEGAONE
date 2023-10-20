@@ -36,8 +36,31 @@
 			speed: 6
 			ammoMultiplier: 1
 			reloadMultiplier: 1
-			hitEffect: explosion-small
-			despawnEffect: explosion-small
+			hitEffect: [
+				{
+					type: WaveEffect
+					sides: 0
+					sizeFrom: 0
+					sizeTo: 7.5
+					strokeTo: 0
+					lifetime: 20
+					colorFrom: 808080
+					colorTo: 404040
+					lightScl: 0
+					lightColor: 000000
+				}
+				{
+					particles: 3
+					length: 10
+					lifetime: 20
+					colorFrom: 808080FF
+					colorTo: 40404000
+					lightScl: 0
+					lightColor: 000000
+					sizeFrom: 4
+					sizeTo: 4
+				}
+			]
 		}
 	}
 	
