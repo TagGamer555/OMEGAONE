@@ -36,8 +36,8 @@
 			speed: 6
 			ammoMultiplier: 1
 			reloadMultiplier: 1
-			hitEffect: explosionSmall
-			despawnEffect: explosionSmall
+			hitEffect: explosion-small
+			despawnEffect: explosion-small
 		}
 	}
 	
