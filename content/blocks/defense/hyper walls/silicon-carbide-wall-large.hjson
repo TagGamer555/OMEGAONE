@@ -4,6 +4,7 @@
 	health: 2000
 	armor: 5
 	size: 2
+	hasPower: true
 	requirements: [
 		graphite/32
 		silicon/32
