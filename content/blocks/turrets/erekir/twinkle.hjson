@@ -1,0 +1,49 @@
+{
+	name: Twinkle
+	description: "Small turret which shoots beryllium and requires hydrogen. While it can be loaded into cargo, it will likely serve little purpose that way because of hydrogen requirements.\n[stat]Tag: [white]Minor[][]"
+	
+	health: 230
+	reload: 40
+	recoil: 0.2
+	rotateSpeed: 4.75
+	//shootSound: shootSnap
+	
+	requirements: [
+		beryllium/45
+		tungsten/80
+	]
+	liquidCapacity: 12
+	size: 1
+	range: 90
+	inaccuracy: 1
+	ammoTypes: {
+		beryllium: {
+			pierceArmor: true
+			despawnEffect: none
+			hitColor: 92DD7E
+			despawnColor: 92DD7E
+			width: 6
+			height: 8
+			shrinkY: 0
+			damage: 24
+			frontColor: 92DD7E
+			backColor: 3A8F64
+			lightColor: 92DD7E
+			lightScl: 1
+			lifetime: 30
+			speed: 3
+			ammoMultiplier: 4
+			reloadMultiplier: 1
+		}
+	}
+	category: turret
+	research: core-bastion
+	consumes: {
+		liquid: hydrogen/0.016666666666666666666666666666666
+	}
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "reinforced-"
+	}
+}
