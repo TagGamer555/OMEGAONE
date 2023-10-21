@@ -1,0 +1,43 @@
+{
+	name: Gleamer
+	description: "Shoots powerful ripping photon beams.\n[stat]Tag: [white]Minor[][]"
+	
+	health: 320
+	reload: 120
+	shoot: {
+		shots: 3
+		shotDelay: 5
+	}
+	recoil: 0.34
+	rotateSpeed: 3.75
+	shootSound: blaster
+	
+	requirements: [
+		copper/90
+		graphite/70
+		lead/50
+	]
+	size: 2
+	range: 60
+	inaccuracy: 0
+	ammoTypes: {
+		silicon: {
+			type: SharpnelBulletType
+			length: 120
+			damage: 20
+			pierceArmor: true
+			pierce: true
+			ammoMultiplier: 2
+			toColor: A8D8FF
+			shootEffect: none
+			smokeEffect: none
+		}
+	}
+	ammoPerShot: 3
+	
+	category: turret
+	research: scatter
+	consumes: {
+		power: 0.75
+	}
+}

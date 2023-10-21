@@ -2,7 +2,7 @@
 	name: Twinkle
 	description: "Small turret which shoots beryllium and requires hydrogen. While it can be loaded into cargo, it will likely serve little purpose that way because of hydrogen requirements.\n[stat]Tag: [white]Minor[][]"
 	
-	health: 230
+	health: 600
 	reload: 40
 	recoil: 0.2
 	rotateSpeed: 4.75
