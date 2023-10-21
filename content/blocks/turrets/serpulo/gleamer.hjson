@@ -10,7 +10,7 @@
 	}
 	recoil: 0.34
 	rotateSpeed: 3.75
-	shootSound: blaster
+	shootSound: minedeploy
 	
 	requirements: [
 		copper/90
@@ -23,7 +23,7 @@
 	ammoTypes: {
 		silicon: {
 			type: ShrapnelBulletType
-			length: 120
+			length: 60
 			damage: 20
 			pierceArmor: true
 			pierce: true
