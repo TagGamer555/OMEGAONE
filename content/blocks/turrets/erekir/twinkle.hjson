@@ -19,13 +19,16 @@
 	ammoTypes: {
 		beryllium: {
 			pierceArmor: true
-			despawnEffect: none
+			despawnColor: none
 			hitColor: 92DD7E
 			despawnColor: 92DD7E
 			width: 6
 			height: 8
 			shrinkY: 0
 			damage: 24
+			trailWidth: 1
+			traiLLength: 8
+			trailColor: 92DD7E
 			frontColor: 92DD7E
 			backColor: 3A8F64
 			lightColor: 92DD7E
