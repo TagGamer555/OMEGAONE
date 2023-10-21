@@ -41,4 +41,20 @@
 	consumes: {
 		power: 1.25
 	}
+	
+	drawer: {
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -extra
+				mirror: true
+				under: true
+				progress: progress
+				moveRot: -20
+				moveX: 0
+				moveY: -3
+			}
+		]
+	}
 }
