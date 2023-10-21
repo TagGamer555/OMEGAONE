@@ -29,7 +29,7 @@
 			shrinkY: 0
 			damage: 24
 			trailWidth: 1
-			traiLLength: 12
+			trailLength: 12
 			trailColor: 92DD7E
 			frontColor: 92DD7E
 			backColor: 3A8F64

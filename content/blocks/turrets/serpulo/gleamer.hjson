@@ -10,7 +10,7 @@
 	}
 	recoil: 0.34
 	rotateSpeed: 3.75
-	shootSound: minedeploy
+	shootSound: shootSnap
 	
 	requirements: [
 		copper/90
@@ -23,8 +23,8 @@
 	ammoTypes: {
 		silicon: {
 			type: ShrapnelBulletType
-			length: 60
-			width: 10
+			length: 40
+			width: 2
 			damage: 20
 			pierceArmor: true
 			pierce: true
@@ -39,6 +39,6 @@
 	category: turret
 	research: scatter
 	consumes: {
-		power: 0.75
+		power: 1.25
 	}
 }
