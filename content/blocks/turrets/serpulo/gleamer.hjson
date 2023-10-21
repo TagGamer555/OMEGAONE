@@ -51,8 +51,8 @@
 				mirror: true
 				under: true
 				progress: warmup
-				moveRot: -20
-				moveX: 3
+				moveRot: -30
+				moveX: 2
 				moveY: -1
 			}
 		]
