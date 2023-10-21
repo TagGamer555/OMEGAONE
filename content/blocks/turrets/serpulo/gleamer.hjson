@@ -52,8 +52,8 @@
 				under: true
 				progress: warmup
 				moveRot: -20
-				moveX: 0
-				moveY: -3
+				moveX: 3
+				moveY: -1
 			}
 		]
 	}
