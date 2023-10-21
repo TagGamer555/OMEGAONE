@@ -11,7 +11,8 @@
 	squareSprite: false
 	requirements: [
 		beryllium/45
-		tungsten/80
+		graphite/45
+		silicon/30
 	]
 	liquidCapacity: 12
 	size: 1
@@ -28,7 +29,7 @@
 			shrinkY: 0
 			damage: 24
 			trailWidth: 1
-			traiLLength: 8
+			traiLLength: 12
 			trailColor: 92DD7E
 			frontColor: 92DD7E
 			backColor: 3A8F64
@@ -36,7 +37,7 @@
 			lightScl: 1
 			lifetime: 30
 			speed: 3
-			ammoMultiplier: 4
+			ammoMultiplier: 1
 			reloadMultiplier: 1
 		}
 	}
