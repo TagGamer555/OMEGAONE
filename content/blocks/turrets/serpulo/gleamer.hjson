@@ -24,6 +24,7 @@
 		silicon: {
 			type: ShrapnelBulletType
 			length: 60
+			width: 10
 			damage: 20
 			pierceArmor: true
 			pierce: true
