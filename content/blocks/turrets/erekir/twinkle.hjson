@@ -8,6 +8,7 @@
 	rotateSpeed: 4.75
 	//shootSound: shootSnap
 	
+	squareSprite: false
 	requirements: [
 		beryllium/45
 		tungsten/80
