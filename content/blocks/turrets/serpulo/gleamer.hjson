@@ -23,7 +23,7 @@
 	ammoTypes: {
 		silicon: {
 			type: ShrapnelBulletType
-			length: 40
+			length: 60
 			width: 10
 			damage: 20
 			pierceArmor: true
@@ -51,8 +51,8 @@
 				mirror: true
 				under: true
 				progress: warmup
-				moveRot: -30
-				moveX: 2
+				moveRot: 0
+				moveX: 2.5
 				moveY: -1
 			}
 		]
