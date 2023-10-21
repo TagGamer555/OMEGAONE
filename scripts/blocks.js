@@ -1,10 +1,11 @@
 {
 	//region - turrets
+	const gleamer = extend(ItemTurret, "gleamer", {});
 	const conductor = extend(PowerTurret, "conductor", {});
 	const beamTesla = extend(PowerTurret, "beam-tesla", {});
 	const nailgun = extend(ItemTurret, "nailgun", {});
 	const score = extend(PowerTurret, "score", {});
-	const slugger = extend(ItemTurret, "slugger", {});
+			//const slugger = extend(ItemTurret, "slugger", {});
 	const twinkle = extend(ItemTurret, "twinkle", {});
 	//region - crafting
 	const steelSmelter = extend(HeatCrafter, "steel-smelter", {});
