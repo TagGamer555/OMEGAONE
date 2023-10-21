@@ -10,7 +10,7 @@
 	}
 	recoil: 0.34
 	rotateSpeed: 3.75
-	shootSound: shootSnap
+	shootSound: bolt
 	
 	requirements: [
 		copper/90
@@ -24,7 +24,7 @@
 		silicon: {
 			type: ShrapnelBulletType
 			length: 40
-			width: 2
+			width: 10
 			damage: 20
 			pierceArmor: true
 			pierce: true
