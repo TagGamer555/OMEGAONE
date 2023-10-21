@@ -22,7 +22,7 @@
 	inaccuracy: 0
 	ammoTypes: {
 		silicon: {
-			type: SharpnelBulletType
+			type: ShrapnelBulletType
 			length: 120
 			damage: 20
 			pierceArmor: true
