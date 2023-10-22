@@ -3,7 +3,7 @@
 	description: "Extracts [gold]Tier 2[] resources underground. Requires water to function.\n[stat]Tag: [white]Major[][]"
 	
 	consumes: {
-		water/0.2
+		liquid: water/0.2
 	}
 	
 	size: 3
