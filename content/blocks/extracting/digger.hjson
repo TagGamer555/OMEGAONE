@@ -1,9 +1,9 @@
 {
 	name: Digger
-	description: "Extracts [gold]Tier 2[] resources underground. Requires combustible resources to function.\n[stat]Tag: [white]Major[][]"
+	description: "Extracts [gold]Tier 2[] resources underground. Requires water to function.\n[stat]Tag: [white]Major[][]"
 	
 	consumes: {
-		itemFlammable: {}
+		water/0.2
 	}
 	
 	size: 3
@@ -11,38 +11,18 @@
 	research: pneumatic-drill
 	craftTime: 300
 	category: production
-	craftEffect: [
-		{
-			type: WaveEffect
-			sides: 0
-			sizeFrom: 0
-			sizeTo: 12
-			strokeFrom: 5
-			strokeTo: 0
-			lifetime: 60
-			colorFrom: FFFFFFFF
-			colorTo: 40404000
-			lightScl: 0
-			lightColor: 000000
-		}
-		{
-			particles: 6
-			sizeFrom: 4
-			sizeTo: 4
-			length: 40
-			lifetime: 90
-			colorFrom: 808080FF
-			colorTo: 40404000
-			lightScl: 0
-			lightColor: 000000
-		}
-	]
 	
 	drawer: {
 		type: DrawMulti
 		drawers: [
 			{
 				type: DrawDefault
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: -2
+				suffix: -rotator
 			}
 			{
 				type: DrawRegion
@@ -58,8 +38,7 @@
 	}
 	
 	hasItems: true
-	hasLiquids: false
-	liquidCapacity: 0
+	liquidCapacity: 24
 	itemCapacity: 30
 	health: 660
 	
