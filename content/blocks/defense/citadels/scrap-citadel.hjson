@@ -1,26 +1,23 @@
 {
-	name: Copper Citadel
-	description: "Shoots bursts of bullets at nearby targets.\n[stat]Tag: [white]Hyper[][]"
+	name: Scrap Citadel
+	description: "Shoots barrage of bullets at nearby targets with high inaccuracy.\n[stat]Tag: [white]Hyper[][]"
+	variants: 3
 	
-	health: 1280
-	reload: 150
-	shoot: {
-		shots: 3
-		shotDelay: 5
-	}
+	health: 960
+	reload: 45
 	recoil: 0.4
 	rotateSpeed: 3
-	shootSound: shootBig
+	shootSound: shootSnap
 	
 	requirements: [
-		copper/32
+		scrap/32
 		silicon/8
 	]
 	size: 2
 	range: 60
-	inaccuracy: 0
+	inaccuracy: 20
 	shootType: {
-		damage: 10
+		damage: 8
 		lifetime: 20
 		speed: 3
 		width: 6
@@ -30,7 +27,7 @@
 	ammoPerShot: 1
 	
 	category: defense
-	research: copper-wall
+	research: scrap-wall
 	consumes: {
 		power: 0.2
 	}
@@ -38,6 +35,6 @@
 	
 	drawer: {
 		type: DrawTurret
-		basePrefix: "copper-"
+		basePrefix: "scrap-"
 	}
 }
