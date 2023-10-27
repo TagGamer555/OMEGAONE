@@ -1,0 +1,41 @@
+{
+	name: Titanium Citadel
+	description: "Shoots lasers at close range targets.\n[stat]Tag: [white]Hyper[][]"
+	
+	health: 1760
+	reload: 120
+	recoil: 0.8
+	rotateSpeed: 3
+	shootSound: laser
+	
+	requirements: [
+		copper/32
+		silicon/8
+	]
+	size: 2
+	range: 60
+	inaccuracy: 0
+	shootType: {
+		type: LaserBulletType
+		length: 60
+		width: 10
+		damage: 30
+		colors: [8AA3F4, FFFFFF, 8AA3F47F]
+		pierce: true
+		pierceCap: 2
+		ammoMultiplier: 1
+	}
+	ammoPerShot: 1
+	
+	category: defense
+	research: titanium-wall
+	consumes: {
+		power: 0.4
+	}
+	conductivePower: true
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "titanium-"
+	}
+}

@@ -3,7 +3,7 @@
 	description: "Shoots bursts of bullets at nearby targets.\n[stat]Tag: [white]Hyper[][]"
 	
 	health: 1280
-	reload: 150
+	reload: 90
 	shoot: {
 		shots: 3
 		shotDelay: 5

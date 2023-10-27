@@ -20,6 +20,7 @@
 	const siliconCarbideWall = extend(Wall, "silicon-carbide-wall", {});
 	const siliconCarbideWallLarge = extend(Wall, "silicon-carbide-wall-large", {});
 	const copperCitadel = extend(PowerTurret, "copper-citadel", {});
+	const titaniumCitadel = extend(PowerTurret, "titanium-citadel", {});
 	const scrapCitadel = extend(PowerTurret, "scrap-citadel", {});
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
