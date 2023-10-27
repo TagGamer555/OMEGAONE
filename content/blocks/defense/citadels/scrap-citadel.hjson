@@ -1,11 +1,10 @@
 {
 	name: Scrap Citadel
 	description: "Shoots barrage of bullets at nearby targets with high inaccuracy.\n[stat]Tag: [white]Hyper[][]"
-	variants: 3
 	
 	health: 960
-	reload: 45
-	recoil: 0.4
+	reload: 20
+	recoil: 0.2
 	rotateSpeed: 3
 	shootSound: shootSnap
 	
@@ -17,12 +16,13 @@
 	range: 60
 	inaccuracy: 20
 	shootType: {
-		damage: 8
+		damage: 5
 		lifetime: 20
 		speed: 3
 		width: 6
 		height: 8
 		ammoMultiplier: 1
+		pierceArmor: true
 	}
 	ammoPerShot: 1
 	
