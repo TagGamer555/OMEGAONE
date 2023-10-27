@@ -9,7 +9,7 @@
 	shootSound: laser
 	
 	requirements: [
-		copper/32
+		titanium/32
 		silicon/8
 	]
 	size: 2
@@ -17,7 +17,7 @@
 	inaccuracy: 0
 	shootType: {
 		type: LaserBulletType
-		length: 60
+		length: 50
 		width: 10
 		damage: 30
 		colors: [8AA3F4, FFFFFF, 8AA3F47F]
