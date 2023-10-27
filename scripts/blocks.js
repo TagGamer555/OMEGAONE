@@ -19,6 +19,7 @@
 	const advancedSurgeWallLarge = extend(PowerTurret, "advanced-surge-wall-large", {});
 	const siliconCarbideWall = extend(Wall, "silicon-carbide-wall", {});
 	const siliconCarbideWallLarge = extend(Wall, "silicon-carbide-wall-large", {});
+	const copperCitadel = extend(PowerTurret, "copper-citadel", {});
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
 }
