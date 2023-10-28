@@ -2,7 +2,7 @@
 	name: Observer
 	description: "Bush hid the facts!"
 	hidden: true
-	playerControllable: false
+	playerControllable: true
 	logicControllable: false
 	
 	isEnemy: false
