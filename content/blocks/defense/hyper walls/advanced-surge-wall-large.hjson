@@ -2,6 +2,7 @@
 	name: Large Advanced Surge Wall
 	description: "A large surge alloy wall, now shooting at enemies nearby.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 10
 	health: 4960
 	reload: 60
 	recoil: 0

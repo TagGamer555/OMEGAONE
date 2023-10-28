@@ -2,6 +2,7 @@
 	name: Phase Citadel
 	description: "Damages enemies with a short tractor beam.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 10
 	health: 2400
 	rotateSpeed: 3
 	

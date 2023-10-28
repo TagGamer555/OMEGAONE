@@ -2,6 +2,7 @@
 	name: Surge Citadel
 	description: "Shoots bursts of homing energy.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 12
 	health: 3680
 	reload: 90
 	shoot: {

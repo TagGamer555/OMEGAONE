@@ -2,6 +2,7 @@
 	name: Copper Citadel
 	description: "Shoots bursts of bullets at nearby targets.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 4
 	health: 1280
 	reload: 90
 	shoot: {

@@ -2,6 +2,7 @@
 	name: Plastanium Citadel
 	description: "Shoots energy bolts which damage enemies and heal allied blocks.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 8
 	health: 2000
 	reload: 90
 	recoil: 0

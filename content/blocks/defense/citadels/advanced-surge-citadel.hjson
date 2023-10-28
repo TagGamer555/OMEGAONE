@@ -1,6 +1,8 @@
 {
 	name: Advanced Surge Citadel
 	description: "Shoots precise laser beams.\n[stat]Tag: [white]Hyper[][]"
+	
+	armor: 30
 	health: 4960
 	size: 2
 	shootSound: blaster
@@ -100,10 +102,10 @@
 			region: omegaone-rail
 		}
 		trailSpacing: 20
-		damage: 40
-		collidesGround: false
+		damage: 50
 		hitColor: F2E879
 		hitShake: 1
 		speed: 180
+		pierceArmor: true
 	}
 }

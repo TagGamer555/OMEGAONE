@@ -2,6 +2,7 @@
 	name: Titanium Citadel
 	description: "Shoots lasers at close range targets.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 6
 	health: 1760
 	reload: 120
 	recoil: 0.8

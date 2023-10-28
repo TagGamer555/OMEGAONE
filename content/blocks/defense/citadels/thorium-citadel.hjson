@@ -2,6 +2,7 @@
 	name: Thorium Citadel
 	description: "Shoots heavy projectiles from alternating barrels.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 8
 	health: 3200
 	reload: 20
 	shoot: {

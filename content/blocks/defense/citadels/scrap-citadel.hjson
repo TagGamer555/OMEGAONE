@@ -2,6 +2,7 @@
 	name: Scrap Citadel
 	description: "Shoots barrage of bullets at nearby targets with high inaccuracy.\n[stat]Tag: [white]Hyper[][]"
 	
+	armor: 2
 	health: 960
 	reload: 20
 	recoil: 0.2
