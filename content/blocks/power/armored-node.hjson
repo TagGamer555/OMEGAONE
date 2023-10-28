@@ -1,0 +1,16 @@
+{
+	name: Armored Node
+	description: "Has more health and additional armor.\n[stat]Tag: [white]Major[][]"
+	size: 1
+	health: 240
+	armor: 5
+	laserRange: 20
+	maxNodes: 4
+	requirements: [
+		steel/4
+		copper/4
+		lead/4
+	]
+	category: power
+	research: power-node
+}

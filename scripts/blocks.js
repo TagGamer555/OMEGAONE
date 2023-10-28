@@ -34,4 +34,6 @@
 	const observatory = extend(DroneCenter, "observatory", {});
 	//region - units
 	
+	//region - power
+	const armoredNode = entend(PowerNode, "armored-node", {});
 }

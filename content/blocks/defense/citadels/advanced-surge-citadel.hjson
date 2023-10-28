@@ -108,4 +108,5 @@
 		speed: 180
 		pierceArmor: true
 	}
+	conductivePower: true
 }
