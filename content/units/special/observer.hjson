@@ -5,6 +5,8 @@
 	playerControllable: true
 	logicControllable: false
 	
+	defaultCommand: repairCommand
+	
 	isEnemy: false
 	envEnabled: 4294967295
 	envDisabled: 0

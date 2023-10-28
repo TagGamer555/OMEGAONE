@@ -23,6 +23,6 @@
 	droneType: observer
 	
 	consumes: {
-		power: 2
+		power: 4
 	}
 }
