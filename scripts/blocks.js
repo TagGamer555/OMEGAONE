@@ -15,10 +15,10 @@
 	const heatPipe = extend(HeatConductor, "heat-pipe", {});
 	const heatPipeRouter = extend(HeatConductor, "heat-pipe-router", {});
 	//region - defense
-	const advancedSurgeWall = extend(PowerTurret, "advanced-surge-wall", {});
-	const advancedSurgeWallLarge = extend(PowerTurret, "advanced-surge-wall-large", {});
 	const siliconCarbideWall = extend(Wall, "silicon-carbide-wall", {});
 	const siliconCarbideWallLarge = extend(Wall, "silicon-carbide-wall-large", {});
+	const advancedSurgeWall = extend(PowerTurret, "advanced-surge-wall", {});
+	const advancedSurgeWallLarge = extend(PowerTurret, "advanced-surge-wall-large", {});
 	const copperCitadel = extend(PowerTurret, "copper-citadel", {});
 	const titaniumCitadel = extend(PowerTurret, "titanium-citadel", {});
 	const plastaniumCitadel = extend(PowerTurret, "plastanium-citadel", {});
@@ -27,6 +27,7 @@
 	const surgeCitadel = extend(PowerTurret, "surge-citadel", {});
 	const scrapCitadel = extend(PowerTurret, "scrap-citadel", {});
 	const siliconCarbideCitadel = extend(PowerTurret, "silicon-carbide-citadel", {});
+	const advancedSurgeCitadel = extend(PowerTurret, "advanced-surge-citadel", {});
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
 	//region - effect
