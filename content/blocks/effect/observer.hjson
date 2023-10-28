@@ -1,0 +1,77 @@
+{
+	type: TetherUnit
+	name: Observer
+	description: "Bush hid the facts!"
+	hidden: false
+	controllable: false
+	logicControllable: false
+	
+	isEnemy: false
+	envEnabled: 4294967295
+	envDisabled: 0
+	
+	targetPriority: -2
+	lowAltitude: false
+	
+	flying: true
+	drag: 0
+	speed: 0.04
+	rotateSpeed: 3
+	accel: 0.08
+	itemCapacity: 80
+	health: 40
+	armor: 0
+	hitSize: 7
+	buildBeamOffset: 9
+	payloadCapacity: 0
+	fogRadius: 0
+	drawCell: false
+	
+	//pickupUnits: false
+	//vulnerableWithPayloads: true
+	
+	targetable: false
+	hittable: false
+	engineOffset: 7.5
+	engineSize: 3.25
+	//engineColor: 84F490
+	engines: [
+		{
+			x: 11
+			y: -2.75
+			rotation: 315
+			radius: 3
+		}
+		{
+			x: -11
+			y: -2.75
+			rotation: -135
+			radius: 3
+		}
+	]
+	weapons: [
+		{
+			type: RepairBeamWeapon
+			x: 3.75
+			y: 5
+			rotate: false
+			mirror: false
+			shootY: 0
+			widthSinMag: 0.14
+			reload: 20
+			beamWidth: 0.7
+			shootCone: 40
+			repairSpeed: 2
+			fractionRepairSpeed: 0.01
+			targetUnits: false
+			targetBuildings: true
+			autoTarget: false
+			controllable: true
+			laserColor: 84F490
+			healColor: 84F490
+			bullet: {
+				maxRange: 90
+			}
+		}
+	]
+}
