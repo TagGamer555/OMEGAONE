@@ -1,0 +1,106 @@
+{
+	name: Advanced Surge Citadel
+	description: "Shoots precise laser beams.\n[stat]Tag: [white]Hyper[][]"
+	health: 4960
+	size: 2
+	shootSound: blaster
+	loopSound: none
+	squareSprite: false
+	requirements: [
+		surge-alloy/48
+		silicon/32
+		copper/48
+		lead/48
+		titanium/32
+	]
+
+	drawer: {
+		type: DrawTurret
+		basePrefix: "advanced-surge-"
+	}
+
+	category: defense
+	research: advanced-surge-wall
+	
+	inaccuracy: 0
+	reload: 180
+	recoil: 3
+	range: 180
+	rotateSpeed: 3
+	shootType: {
+		type: PointBulletType
+		shootEffect: [
+			{
+				type: WaveEffect
+				sides: 0
+				sizeFrom: 15
+				strokeFrom: 3
+				strokeTo: 0
+				lifetime: 23
+				colorFrom: F2E879
+				colorTo: F2E879
+			}
+			{
+				type: ParticleEffect
+				particles: 1
+				length: 0
+				lifetime: 23
+				sizeFrom: 15
+				colorFrom: F2E879
+				colorTo: F2E879
+				region: omegaone-rail
+			}
+		]
+		hitEffect: [{
+		type: WaveEffect
+		sides: 0
+		sizeFrom: 15
+		sizeTo: 20
+		strokeFrom: 3.5
+		strokeTo: 0
+		colorFrom: F2E879
+		colorTo: F2E879
+		lifetime: 15
+		}]
+		}
+		despawnEffect: [{
+		type: WaveEffect
+		sides: 0
+		sizeFrom: 15
+		sizeTo: 20
+		strokeFrom: 3.5
+		strokeTo: 0
+		colorFrom: F2E879
+		colorTo: F2E879
+		lifetime: 23
+		}]
+		}
+		smokeEffect: {
+		type: ParticleEffect
+		particles: 8
+		cone: 360
+		lifetime: 80
+		sizeFrom: 8
+		sizeTo: 0
+		length: 35
+		colorFrom: F2E879
+		colorTo: F2E87970
+		}
+		trailEffect: {
+		type: ParticleEffect
+		length: 0
+		particles: 1
+		lifetime: 23
+		sizeFrom: 17
+		colorFrom: F2E879
+		colorTo: F2E879
+		region: omegaone-rail
+		}
+		trailSpacing: 20
+		damage: 40
+		collidesGround: false
+		hitColor: F2E879
+		hitShake: 1
+		speed: 180
+	}
+}
