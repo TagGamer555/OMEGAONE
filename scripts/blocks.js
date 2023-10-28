@@ -24,6 +24,7 @@
 	const plastaniumCitadel = extend(PowerTurret, "plastanium-citadel", {});
 	const thoriumCitadel = extend(PowerTurret, "thorium-citadel", {});
 	const phaseCitadel = extend(TractorBeamTurret, "phase-citadel", {});
+	const surgeCitadel = extend(PowerTurret, "surge-citadel", {});
 	const scrapCitadel = extend(PowerTurret, "scrap-citadel", {});
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
