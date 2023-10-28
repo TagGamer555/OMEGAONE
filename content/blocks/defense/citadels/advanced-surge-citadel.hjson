@@ -18,6 +18,10 @@
 		type: DrawTurret
 		basePrefix: "advanced-surge-"
 	}
+	
+	consumes: {
+		power: 3.2
+	}
 
 	category: defense
 	research: advanced-surge-wall
@@ -28,6 +32,7 @@
 	range: 180
 	rotateSpeed: 3
 	shootType: {
+		ammoMultiplier: 1
 		type: PointBulletType
 		shootEffect: [
 			{
@@ -71,14 +76,14 @@
 			strokeTo: 0
 			colorFrom: F2E879
 			colorTo: F2E879
-		lifetime: 23
+			lifetime: 23
 		}]
 		smokeEffect: {
 			type: ParticleEffect
 			particles: 8
-			cone: 360
+			cone: 120
 			lifetime: 80
-			sizeFrom: 8
+			sizeFrom: 4
 			sizeTo: 0
 			length: 35
 			colorFrom: F2E879
