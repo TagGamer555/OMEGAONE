@@ -3,7 +3,7 @@
 	description: "Shoots heavy projectiles from alternating barrels.\n[stat]Tag: [white]Hyper[][]"
 	
 	health: 3200
-	reload: 30
+	reload: 20
 	shoot: {
 		type: shootAlternate
 		alternate: 8
@@ -24,8 +24,8 @@
 		damage: 24
 		lifetime: 20
 		speed: 3
-		width: 6
-		height: 8
+		width: 8
+		height: 10
 		ammoMultiplier: 1
 		knockback: 1
 	}
