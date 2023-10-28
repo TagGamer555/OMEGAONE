@@ -36,13 +36,13 @@
 	//engineColor: 84F490
 	engines: [
 		{
-			x: 11
+			x: 6.75
 			y: -2.75
 			rotation: 315
 			radius: 3
 		}
 		{
-			x: -11
+			x: -6.75
 			y: -2.75
 			rotation: -135
 			radius: 3
@@ -51,8 +51,8 @@
 	weapons: [
 		{
 			type: RepairBeamWeapon
-			x: 3.75
-			y: 5
+			x: 0
+			y: 3
 			rotate: false
 			mirror: false
 			shootY: 0
