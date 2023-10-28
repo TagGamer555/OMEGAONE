@@ -1,43 +1,44 @@
 {
-	name: Copper Citadel
-	description: "Shoots bursts of bullets at nearby targets.\n[stat]Tag: [white]Hyper[][]"
+	name: Thorium Citadel
+	description: "Shoots heavy projectiles from alternating barrels.\n[stat]Tag: [white]Hyper[][]"
 	
-	health: 1280
+	health: 3200
 	reload: 90
 	shoot: {
-		shots: 3
-		shotDelay: 5
+		type: shootAlternate
+		alternate: 8
 	}
-	recoil: 0.4
+	recoil: 0.6
 	rotateSpeed: 3
 	shootSound: shootBig
 	
 	requirements: [
-		copper/32
+		thorium/32
 		silicon/8
 	]
 	size: 2
 	range: 60
-	inaccuracy: 0
+	inaccuracy: 5
 	shootType: {
-		damage: 15
+		damage: 24
 		lifetime: 20
 		speed: 3
 		width: 6
 		height: 8
 		ammoMultiplier: 1
+		knockback: 1
 	}
 	ammoPerShot: 1
 	
 	category: defense
-	research: copper-wall
+	research: thorium-wall
 	consumes: {
-		power: 0.2
+		power: 0.8
 	}
 	conductivePower: true
 	
 	drawer: {
 		type: DrawTurret
-		basePrefix: "copper-"
+		basePrefix: "thorium-"
 	}
 }

@@ -21,11 +21,14 @@
 	const siliconCarbideWallLarge = extend(Wall, "silicon-carbide-wall-large", {});
 	const copperCitadel = extend(PowerTurret, "copper-citadel", {});
 	const titaniumCitadel = extend(PowerTurret, "titanium-citadel", {});
+	const plastaniumCitadel = extend(PowerTurret, "plastanium-citadel", {});
+	const thoriumCitadel = extend(PowerTurret, "thorium-citadel", {});
+	const phaseCitadel = extend(TractorBeamTurret, "phase-citadel", {});
 	const scrapCitadel = extend(PowerTurret, "scrap-citadel", {});
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
 	//region - effect
 	const observatory = extend(DroneCenter, "observatory", {});
 	//region - units
-	const augmenter = extend(DroneCenter, "augmenter", {});
+	
 }

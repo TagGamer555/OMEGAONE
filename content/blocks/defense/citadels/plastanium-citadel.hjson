@@ -1,0 +1,45 @@
+{
+	name: Plastanium Citadel
+	description: "Shoots energy bolts which damage enemies and heal allied blocks.\n[stat]Tag: [white]Hyper[][]"
+	
+	health: 2000
+	reload: 90
+	recoil: 0
+	rotateSpeed: 3
+	shootSound: shootBig
+	
+	requirements: [
+		plastanium/24
+		metaglass/8
+		silicon/8
+	]
+	size: 2
+	range: 60
+	inaccuracy: 0
+	shootType: {
+		type: LaserBoltBulletType
+		speed: 3
+		damage: 20
+		collidesTeam: true
+		healPercent: 1
+		lifetime: 20
+		backColor: ffffff
+		frontColor: 84F490
+		ammoMultiplier: 1
+	}
+	ammoPerShot: 1
+	
+	absorbLasers: true
+	
+	category: defense
+	research: plastanium-wall
+	consumes: {
+		power: 0.8
+	}
+	conductivePower: true
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "plastanium-"
+	}
+}

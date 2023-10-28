@@ -1,0 +1,40 @@
+{
+	name: Phase Citadel
+	description: "Damages enemies with a short tractor beam.\n[stat]Tag: [white]Hyper[][]"
+	
+	health: 2400
+	rotateSpeed: 3
+	shootSound: shootBig
+	
+	requirements: [
+		phase-fabric/32
+		silicon/8
+	]
+	
+	size: 2
+	range: 60
+	damage: 0.25
+	
+	targetAir: true
+	targetGround: true
+	
+	ammoPerShot: 1
+	hasPower: true
+	
+	force: 0
+	
+	flashHit: true
+	chanceDeflect: 10
+	
+	category: defense
+	research: phase-wall
+	consumes: {
+		power: 1.6
+	}
+	conductivePower: true
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "phase-"
+	}
+}
