@@ -2,7 +2,7 @@
 	name: Observer
 	description: "Bush hid the facts!"
 	hidden: true
-	controllable: false
+	playerControllable: false
 	logicControllable: false
 	
 	isEnemy: false
@@ -17,7 +17,7 @@
 	speed: 8
 	rotateSpeed: 3
 	accel: 0.08
-	itemCapacity: 80
+	itemCapacity: 0
 	health: 120
 	armor: 5
 	hitSize: 7
@@ -36,16 +36,16 @@
 	//engineColor: 84F490
 	engines: [
 		{
-			x: 6.75
-			y: -2.75
+			x: 5
+			y: -4
 			rotation: 315
-			radius: 3
+			radius: 2
 		}
 		{
-			x: -6.75
-			y: -2.75
+			x: -5
+			y: -4
 			rotation: -135
-			radius: 3
+			radius: 2
 		}
 	]
 	weapons: [
