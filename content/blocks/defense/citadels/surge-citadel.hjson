@@ -12,10 +12,9 @@
 	rotateSpeed: 3
 	shootSound: bolt
 	
-	lightningChance: 0.05
-	
 	requirements: [
 		surge-alloy/32
+		titanium/16
 		silicon/8
 	]
 	size: 2
@@ -50,7 +49,6 @@
 				sizeFrom: 4
 				sizeTo: 0
 				lifetime: 20
-				lightScale: 3
 				lightColor: F2E879
 			}
 			{
@@ -62,7 +60,6 @@
 				lifetime: 20
 				colorFrom: FFFFFF
 				colorTo: F2E87980
-				lightScale: 0
 				lightColor: 000000
 			}
 		]
@@ -75,7 +72,6 @@
 				sizeFrom: 4
 				sizeTo: 0
 				lifetime: 20
-				lightScale: 3
 				lightColor: F2E879
 			}
 			{
@@ -87,7 +83,6 @@
 				lifetime: 20
 				colorFrom: FFFFFF
 				colorTo: F2E87980
-				lightScale: 0
 				lightColor: 000000
 			}
 		]

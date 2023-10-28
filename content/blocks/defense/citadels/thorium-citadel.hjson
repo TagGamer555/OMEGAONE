@@ -3,7 +3,7 @@
 	description: "Shoots heavy projectiles from alternating barrels.\n[stat]Tag: [white]Hyper[][]"
 	
 	health: 3200
-	reload: 90
+	reload: 30
 	shoot: {
 		type: shootAlternate
 		alternate: 8
@@ -14,6 +14,7 @@
 	
 	requirements: [
 		thorium/32
+		lead/16
 		silicon/8
 	]
 	size: 2

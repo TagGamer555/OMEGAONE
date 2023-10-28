@@ -6,7 +6,7 @@
 	reload: 90
 	recoil: 0
 	rotateSpeed: 3
-	shootSound: shootBig
+	shootSound: lasershoot
 	
 	requirements: [
 		plastanium/24
