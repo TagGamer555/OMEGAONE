@@ -35,5 +35,5 @@
 	//region - units
 	
 	//region - power
-	const armoredNode = entend(PowerNode, "armored-node", {});
+	const armoredNode = extend(PowerNode, "armored-node", {});
 }
