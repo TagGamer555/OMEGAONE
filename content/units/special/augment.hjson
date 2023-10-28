@@ -1,0 +1,65 @@
+{
+	name: Augment
+	description: "Bush hid the facts!"
+	hidden: true
+	playerControllable: false
+	logicControllable: false
+	
+	//defaultCommand: repair
+	
+	isEnemy: false
+	envEnabled: 4294967295
+	envDisabled: 0
+	
+	targetPriority: -2
+	lowAltitude: false
+	
+	flying: true
+	drag: 0.04
+	speed: 8
+	rotateSpeed: 3
+	accel: 0.08
+	itemCapacity: 0
+	health: 120
+	armor: 5
+	hitSize: 7
+	buildBeamOffset: 9
+	payloadCapacity: 0
+	fogRadius: 0
+	drawCell: false
+	
+	//pickupUnits: false
+	//vulnerableWithPayloads: true
+	
+	targetable: false
+	hittable: false
+	engineOffset: 7.5
+	engineSize: 3.25
+	//engineColor: 84F490
+	engineSize: 0
+	weapons: [
+		{
+			type: RepairBeamWeapon
+			x: 0
+			y: 0
+			rotate: false
+			mirror: false
+			shootY: 0
+			widthSinMag: 0.14
+			reload: 20
+			beamWidth: 0.7
+			shootCone: 20
+			repairSpeed: 2
+			fractionRepairSpeed: 0.01
+			targetUnits: true
+			targetBuildings: false
+			autoTarget: true
+			controllable: true
+			laserColor: 84F490
+			healColor: 84F490
+			bullet: {
+				maxRange: 90
+			}
+		}
+	]
+}

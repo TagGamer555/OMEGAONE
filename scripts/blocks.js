@@ -26,4 +26,6 @@
 	const digger = extend(Separator, "digger", {});
 	//region - effect
 	const observatory = extend(DroneCenter, "observatory", {});
+	//region - units
+	const augmenter = extend(DroneCenter, "augmenter", {});
 }

@@ -1,0 +1,31 @@
+{
+	name: Augmenter
+	description: "Summons unit which supports allies.\n[stat]Tag: [white]Major[][]"
+	
+	health: 600
+	size: 2
+	category: units
+	
+	status: overclock
+	
+	requirements: [
+		steel/200
+		phase-fabric/120
+		plastanium/120
+		silicon/80
+	]
+	
+	research: core-foundation
+	
+	configurable: false
+	solid: true
+	
+	droneRange: 0
+	droneConstructTime: 240
+	unitsSpawned: 1
+	droneType: augment
+	
+	consumes: {
+		power: 8
+	}
+}
