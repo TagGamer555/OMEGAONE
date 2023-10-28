@@ -25,5 +25,5 @@
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
 	//region - effect
-	const observatory(DroneCenter, "observatory", {});
+	const observatory = (DroneCenter, "observatory", {});
 }
