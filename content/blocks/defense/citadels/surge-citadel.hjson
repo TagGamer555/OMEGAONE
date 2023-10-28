@@ -15,7 +15,7 @@
 	lightningChance: 0.05
 	
 	requirements: [
-		surge/32
+		surge-alloy/32
 		silicon/8
 	]
 	size: 2
