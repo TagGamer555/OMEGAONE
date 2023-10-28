@@ -26,6 +26,7 @@
 	const phaseCitadel = extend(TractorBeamTurret, "phase-citadel", {});
 	const surgeCitadel = extend(PowerTurret, "surge-citadel", {});
 	const scrapCitadel = extend(PowerTurret, "scrap-citadel", {});
+	const siliconCarbideCitadel = extend(PowerTurret, "silicon-carbide-citadel", {});
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
 	//region - effect

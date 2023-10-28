@@ -21,7 +21,7 @@
 		speed: 3
 		damage: 20
 		collidesTeam: true
-		healPercent: 1
+		healPercent: 4
 		lifetime: 20
 		backColor: ffffff
 		frontColor: 84F490
@@ -30,6 +30,7 @@
 	ammoPerShot: 1
 	
 	absorbLasers: true
+	targetHealing: true
 	
 	category: defense
 	research: plastanium-wall

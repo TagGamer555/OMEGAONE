@@ -1,0 +1,44 @@
+{
+	name: Silicon Carbide Citadel
+	description: "Shoots volley of bullets at nearby targets.\n[stat]Tag: [white]Hyper[][]"
+	
+	health: 2000
+	reload: 90
+	shoot: {
+		shots: 5
+		shotDelay: 5
+	}
+	recoil: 0.4
+	rotateSpeed: 3
+	shootSound: shootBig
+	
+	requirements: [
+		graphite/32
+		silicon/40
+		titanium/12
+	]
+	size: 2
+	range: 60
+	inaccuracy: 2
+	shootType: {
+		damage: 15
+		lifetime: 20
+		speed: 3
+		width: 6
+		height: 8
+		ammoMultiplier: 1
+	}
+	ammoPerShot: 1
+	
+	category: defense
+	research: silicon-carbide-wall
+	consumes: {
+		power: 0.8
+	}
+	conductivePower: true
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "silicon-carbide-"
+	}
+}
