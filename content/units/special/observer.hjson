@@ -5,6 +5,8 @@
 	playerControllable: false
 	logicControllable: false
 	
+	defaultCommand: repairCommand
+	
 	isEnemy: false
 	envEnabled: 4294967295
 	envDisabled: 0
@@ -37,13 +39,13 @@
 	engines: [
 		{
 			x: 5
-			y: -4
+			y: -5
 			rotation: 315
 			radius: 2
 		}
 		{
 			x: -5
-			y: -4
+			y: -5
 			rotation: -135
 			radius: 2
 		}
