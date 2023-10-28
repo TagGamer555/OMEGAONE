@@ -1,5 +1,4 @@
 {
-	type: TetherUnit
 	name: Observer
 	description: "Bush hid the facts!"
 	hidden: false
