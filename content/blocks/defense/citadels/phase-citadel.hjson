@@ -8,6 +8,7 @@
 	requirements: [
 		phase-fabric/32
 		thorium/16
+		lead/16
 		silicon/8
 	]
 	
