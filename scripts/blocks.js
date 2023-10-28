@@ -24,4 +24,6 @@
 	const scrapCitadel = extend(PowerTurret, "scrap-citadel", {});
 	//region - extraction
 	const digger = extend(Separator, "digger", {});
+	//region - effect
+	const observatory(DroneCenter, "observatory", {});
 }

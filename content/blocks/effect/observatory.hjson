@@ -1,0 +1,28 @@
+{
+	name: Observatory
+	description: "Summons healing unit which repairs blocks using a repair laser.\n[stat]Tag: [white]Major[][]"
+	
+	health: 600
+	size: 2
+	category: effect
+	
+	requirements: [
+		steel/30
+		lead/50
+		silicon/40
+	]
+	
+	research: mender
+	
+	configurable: false
+	solid: true
+	
+	droneRange: 0
+	droneConstructTime: 240
+	unitsSpawned: 1
+	droneType: observer
+	
+	consumes: {
+		power: 2
+	}
+}
