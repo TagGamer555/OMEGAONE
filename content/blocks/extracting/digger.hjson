@@ -1,6 +1,6 @@
 {
 	name: Digger
-	description: "Extracts titanium and iron underground. Requires oil to function.\n[stat]Tag: [white]Major[][]"
+	description: "Extracts iron underground. Requires oil to function.\n[stat]Tag: [white]Major[][]"
 	
 	consumes: {
 		liquid: oil/0.1
@@ -44,7 +44,7 @@
 	hasItems: true
 	liquidCapacity: 24
 	itemCapacity: 30
-	health: 660
+	health: 800
 	
 	requirements: [
 		copper/120
@@ -52,14 +52,5 @@
 		graphite/50
 	]
 	
-	results: [
-		{
-			item: titanium
-			amount: 1
-		}
-		{
-			item: iron
-			amount: 1
-		}
-	]
+	outputItem: iron/1
 }
