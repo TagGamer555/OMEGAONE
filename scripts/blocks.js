@@ -29,7 +29,7 @@
 	const siliconCarbideCitadel = extend(PowerTurret, "silicon-carbide-citadel", {});
 	const advancedSurgeCitadel = extend(PowerTurret, "advanced-surge-citadel", {});
 	//region - extraction
-	const digger = extend(Separator, "digger", {});
+	const digger = extend(GenericCrafter, "digger", {});
 	//region - effect
 	const observatory = extend(DroneCenter, "observatory", {});
 	//region - units
