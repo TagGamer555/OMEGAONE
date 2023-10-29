@@ -16,7 +16,8 @@
 		type: DrawMulti
 		drawers: [
 			{
-				type: DrawDefault
+				type: DrawRegion
+				suffix: -bottom
 			}
 			{
 				type: DrawRegion
@@ -29,6 +30,9 @@
 				spinSprite: true
 				rotateSpeed: 2
 				suffix: -rotator
+			}
+			{
+				type: DrawDefault
 			}
 			{
 				type: DrawRegion
