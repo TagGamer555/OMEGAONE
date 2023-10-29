@@ -1,13 +1,13 @@
 {
 	name: Digger
-	description: "Extracts [gold]Tier 2[] resources underground. Requires water to function.\n[stat]Tag: [white]Major[][]"
+	description: "Extracts titanium and iron underground. Requires oil to function.\n[stat]Tag: [white]Major[][]"
 	
 	consumes: {
-		liquid: water/0.2
+		liquid: oil/0.1
 	}
 	
-	size: 3
-	squareSprite: true
+	size: 2
+	squareSprite: false
 	research: pneumatic-drill
 	craftTime: 300
 	category: production
