@@ -22,27 +22,4 @@
 	category: production
 	research: water-extractor
 	liquidCapacity: 67.5
-	
-	drawer: {
-		type: DrawMulti
-		drawers: [
-			{
-				type: DrawRegion
-				suffix: -bottom
-			}
-			{
-				type: DrawRegion
-				spinSprite: true
-				rotateSpeed: 1.4
-				suffix: -rotator
-			}
-			{
-				type: DrawDefault
-			}
-			{
-				type: DrawRegion
-				suffix: -top
-			}
-		]
-	}
 }
