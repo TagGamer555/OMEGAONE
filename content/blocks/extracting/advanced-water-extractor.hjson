@@ -1,0 +1,48 @@
+{
+	name: Advanced Water Extractor
+	description: "Extracts much more water underground, but requires more power.\n[stat]Tag: [white]Major[][]"
+	health: 420
+	result: water
+	hasPower: true
+	hasLiquids: true
+	size: 3
+	pumpAmount: 0.275
+	
+	consumes: {
+		power: 3.375
+	}
+	
+	requirements: [
+		phase-fabric/30
+		steel/60
+		titanium/90
+		metaglass/120
+	]
+	
+	category: production
+	research: water-extractor
+	liquidCapacity: 67.5
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: 1.4
+				suffix: -rotator
+			}
+			{
+				type: DrawDefault
+			}
+			{
+				type: DrawRegion
+				suffix: -top
+			}
+		]
+	}
+}

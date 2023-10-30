@@ -4,8 +4,8 @@
 	size: 1
 	health: 240
 	armor: 5
-	laserRange: 20
-	maxNodes: 4
+	laserRange: 6
+	maxNodes: 6
 	requirements: [
 		steel/4
 		copper/4
