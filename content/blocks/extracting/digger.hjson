@@ -45,7 +45,7 @@
 			strokeTo: 0
 			lifetime: 60
 			colorFrom: AAAAAAFF
-			colorTo: 60606000
+			colorTo: 00000000
 			lightScl: 0
 			lightColor: 000000
 		}
@@ -56,7 +56,7 @@
 			length: 20
 			lifetime: 90
 			colorFrom: AAAAAAFF
-			colorTo: 606060000
+			colorTo: 00000000
 			lightScl: 0
 			lightColor: 000000
 		}
