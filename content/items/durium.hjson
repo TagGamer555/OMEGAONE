@@ -1,0 +1,7 @@
+{
+	name: Durium
+	description: "Durium. Extremely hard alloy, used for many purposes.\n[stat]Tag: [white]Major[][]"
+	color: 8ECCB7
+	research: steel
+	cost: 5
+}
