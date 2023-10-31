@@ -1,0 +1,53 @@
+{
+	name: 									//string (use double quotes if [color] is used) - this is optional
+	description: 							//string (use double quotes if [color] is used) - this is optional
+	
+	category: 								//valid category name
+	
+	research:								//valid research thing id (can be anything, like item, unit, or block) - this is optional
+	
+	requirements: [							//array for build cost resources - if not specified, the block will be considered EDITOR ONLY
+		// item/count
+		// item/count
+		// etc...
+	]
+	
+	buildVisibility:						//optional, but you can specify whether this block is debugOnly, sandboxOnly, or editorOnly. if not specified, usually the block is defined as normally placeable in game (without cheats)
+	
+	size:									//natural number for size of the block - by default, this is 1 (1x1 in size)
+	
+	craftEffect: {}							//craft effect when a block finishes crafting - you ccan use [] (array) for multiple affects
+	heatRequirement:						//how much heat is required - a natural number
+	
+	drawer: {								//call drawer (optional)
+		type: DrawMulti						//essential if you did call the function
+		drawers: [
+			{
+				type: DrawDefault			//draw the main sprite, for example, main sprite of silicon-smelter would be `silicon-smelter`
+			}
+			{
+				type: DrawHeatInput			//draw the heat which shows up when block recieves heat
+			}
+		]
+	}
+	
+	ambientSound:							//ambient sfx if the building is working
+	ambientSoundVolume:						//float volume, keep this low (0.01 ~ 0.2)
+	
+	consumes: {								//NOT an array, [] is for arrays, {} is for functions
+		items: {
+			items: [						//array of items that are used in the crafting process
+				// item/count
+				// item/count
+				// etc...
+			]
+		}
+	}
+	
+	outputItems: [
+		// item/count
+		// item/count
+		// etc...
+	]
+	craftTime:								//time (in ticks), 1 second is 60 ticks
+}
