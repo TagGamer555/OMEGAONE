@@ -1,7 +1,7 @@
 {
-	name: alloy
-	description: "Alloy.. soft alloy, used for many purposes.\n[stat]Tag: [white]Major[][]"
-	color: edebe6
-	research: steel
-	cost: 5
+	name: Alloy
+	description: "Common alloy with variety of purposes.\n[stat]Tag: [white]Major[][]"
+	color: B8AC8C
+	research: lead
+	cost: 3
 }
