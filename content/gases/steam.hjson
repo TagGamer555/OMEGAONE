@@ -1,0 +1,13 @@
+{
+	name: Steam
+	description: Water in the gas state. Useful for heating up or generating pressure.
+	heatCapacity: 0.25
+	explosiveness: 0
+	temperature: 0
+	gas: true
+	color: FFFFFF
+	gasColor: FFFFFF
+	flammability: 0
+	research: alloy
+	coolant: false
+}
